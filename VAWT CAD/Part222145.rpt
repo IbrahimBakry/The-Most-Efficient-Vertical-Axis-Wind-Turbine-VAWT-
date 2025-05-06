@@ -1,0 +1,62 @@
+*****************************************************************
+      SolidWorks Corporation - IGES Processor Status Report
+*****************************************************************
+=================================================================
+General Information
+=================================================================
+Sending System Product I.D.  : Part222
+Receiving System Product I.D.: Part222
+File Name                    : C:\Users\MG\Desktop\Part222145.IGS
+Sending System               : SolidWorks 2014
+Preprocessor Version         : SolidWorks 2014
+File Creation Date           : 170814.171131
+Model Creation Date          : 170814.171131
+Units                        : MM
+Model Space Scale            : 1
+Author                       : MG
+Organization                 : 
+
+
+=================================================================
+Entity Processing Information
+=================================================================
+
+
+=================================================================
+Precision analysis of IGES file:
+=================================================================
+  Most prevalent number of significant digits:              12
+  Highest number of significant digits:                     14
+  Average number of significant digits:                8.03732
+  Maximum distance to origin:                          2386.22
+  Minimum distance to origin:                                0
+  Effective number of significant digits:                   14
+
+
+=================================================================
+Entity Summary
+=================================================================
+-----------------------------------------------------------------
+Type Name                                         Count Converted
+---- ----                                         ----- ---------
+100  Arc                                             80        80
+110  Line                                           382       380
+112  Parametric spline curve                        245       245
+124  Transformation matrix                           76        76
+314  Color definition                                 1         1
+402  Associativity instance                           8         8
+_________________________________________________________________
+
+
+=================================================================
+Result Summary
+=================================================================
+SolidWorks Feature Type                Count
+-----------------------                -----
+Solid feature(s)                       0
+Surface feature(s)                     0
+Curve/Sketch feature(s)                707
+--------------------------------------------
+Start time: Monday, August 14, 2017 18:19:46
+Finish time: Monday, August 14, 2017 18:20:28
+Processing time: 0 days, 00 hours, 00 mins, 42 secs
