@@ -1,0 +1,43 @@
+Hello, I hope all is well with you. I am looking to find someone with your skills to
+do a project for a friend of mines start up company. 
+
+It will be doing CFD, comparisons and more with report. The product is a Vertical Axis Wind Turbine
+(VAWT). This is not a normal turbine and it has some unique features. After the VAWT it has way we
+call "Directors" these attach at the end of the turing to catch more wind and direct it into the 
+turbine. I have attached what my friend wrote me, please read it and let me know if you can help 
+and what you think. I can also send you photo and sketches. Here is what he said:
+
+1 Our New Model VAWT included big directors (guide-boost) 5.5 meter included
+our rotor in the middle, and 30 % drg angle bottom, new rotor design of 24
+blades, 2 meters height, and 1.22 diameter, hollow rotor is 30 cm in the
+middle.
+
+2 Also compare with various other models (VAWT)
+
+3.CFD activities
+Starting from our basic model VAWT (with dimensions, plans, etc.) Widened
+with a 3D drawing of the wind catchers (guide-boost in total 5.5 meters,
+included rotor with hollow in the middle, and 30 % drg angle system on the
+bottom, and boost in closed on top, guide area is open).
+With dimensions and specifications, I expect them to theoretically calculate
+axle output with torque and speed at different wind speeds.
+They should also be able to provide us with a curve of the Cp in function of
+the wind speed.
+The Cp is defined as the ratio between Pmechanic to Pwind, with other words,
+how much is the Pwind boosted by the combination of the VAWT and the
+proposed windscreens. (big guide boost directors and 30 drg angle system on
+bottom and closed boost system on top to creacte pressure in the follow
+rotor, inside the windturbine boost ratio 1 to 12)
+
+Besides, they will also be able to provide other parameters for pressure
+build-up, friction, max and min theoretical speeds.
+
+Can they also vary the proposed windscreens (guide-boost directors) in their
+models to see the impact on the mechanical power of the proposed turbine
+VAWT?
+
+Any idea of what you can do this GIG for? I see on your profile the different options and also wanted to see a guess on how long it will take you. Thank you and I look forward to hearing from you.
+
+Best regards,
+
+Conrad
