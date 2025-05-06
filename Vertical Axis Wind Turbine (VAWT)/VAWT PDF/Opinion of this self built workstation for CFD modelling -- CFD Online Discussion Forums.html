@@ -1,0 +1,5277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+<base href="https://www.cfd-online.com/Forums/" /><!--[if IE]></base><![endif]-->
+	<link rel="canonical" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="generator" content="vBulletin 3.8.9" />
+
+<meta name="keywords" content="Opinion,self,built,workstation,CFD,modelling,computer parts, computer spec, hardware,  Opinion of this self built workstation for CFD modelling, CFD, discussion, forum, bbs, computational fluid dynamics, users, support, commercial codes, Ansys, CFX, EFD, FloWorks, FLOW-3D, Fluent, NUMECA, PHOENICS, STAR-CD, Wiki, CFD-Wiki, CD-adapco, ICEM, Gambit" />
+<meta name="description" content="Sponsored Links Greetings Everyone, I have just started a PhD on renewable energy modelling which will require to couple near-field and far-field CFD" />
+
+
+<!-- CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.9 CSS
+* Style: 'CFD Online'; Style ID: 2
+*/
+body
+{
+	background: #FFFFFF;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: repeat-x;
+	background-image:  url('http://www.cfd-online.com/Images/mainnav_background.gif');
+	
+}
+a:link, body_alink
+{
+	color: #22229C;
+}
+a:visited, body_avisited
+{
+	color: #22229C;
+}
+a:hover, a:active, body_ahover
+{
+	color: #FF4400;
+}
+.page
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+td, th, p, li
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	background: #D1D1E1;
+	color: #000000;
+	border: 1px solid #999999;
+}
+.tcat
+{
+	background: #EEEEEE;
+	color: #000000;
+	font: bold 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #000000;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #000000;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	background: #FFFFFF;
+	color: #000000;
+	text-decoration: underline;
+}
+.thead
+{
+	background: #CCCCCC url(images/gradients/gradient_grey2.png);
+	color: #000066;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.thead a:link, .thead_alink
+{
+	color: #000099;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #000099;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	background: #000066;
+	color: #FFFFD0;
+}
+.tfoot
+{
+	background: #EEEEEE;
+	color: #000066;
+}
+.tfoot a:link, .tfoot_alink
+{
+	background: #EEEEEE;
+	color: #000066;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	background: #EEEEEE;
+	color: #000066;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	background: #000066;
+	color: #EEEEEE;
+}
+.alt1, .alt1Active
+{
+	background: #F7F7F7;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.alt2, .alt2Active
+{
+	background: #F7F7FF;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.inlinemod
+{
+	background: #FFFFD0;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #F5F5FF;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #22229C;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #22229C;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #FF4400;
+}
+textarea, .bginput
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+select
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.time
+{
+	color: #666686;
+}
+.navbar
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	background: #E4E7F5 url(images/gradients/gradient_panel.gif) repeat-x top left;
+	color: #000000;
+	padding: 100px;
+	border: 2px outset;
+}
+.panelsurround
+{
+	background: #D1D4E0 url(images/gradients/gradient_panelsurround.gif) repeat-x top left;
+	color: #000000;
+}
+legend
+{
+	color: #22229C;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: #FFFFD0;
+	color: #000066;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	padding: 3px 6px 3px 6px;
+	white-space: nowrap;
+	font-variant: small-caps;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px none #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px none #CCCCCC;
+	
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #000066;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #000066;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	background: #000066;
+	color: #FFFFD0;
+	text-decoration: none;
+}
+.vbmenu_popup
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #0B198C;
+}
+.vbmenu_option
+{
+	background: #EEEEEE;
+	color: #000066;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #000066;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #000066;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #000066;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #000066;
+	color: #FFFFD0;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #FFFFD0;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #FFFFD0;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #FFFFD0;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+.vbmenu_control a, .vbmenu_control a:visited, .vbmenu_control a:active, .vbmenu_control a:focus, .vbmenu_control a:hover
+{
+        padding-top: 1px;
+        padding-right: 5px;  
+        padding-bottom: 1px;
+        padding-left: 5px;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="https://www.cfd-online.com/Forums/clientscript/vbulletin_important.css?v=389" />
+
+
+<!-- / CSS Stylesheet -->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/yahoo-dom-event/yahoo-dom-event.js?v=389"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/connection/connection-min.js?v=389"></script>
+<script type="text/javascript">
+<!--
+var SESSIONURL = "";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "images/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// -->
+</script>
+<script type="text/javascript" src="https://www.cfd-online.com/Forums/clientscript/vbulletin_global.js?v=389"></script>
+<script type="text/javascript" src="https://www.cfd-online.com/Forums/clientscript/vbulletin_menu.js?v=389"></script>
+
+
+	<link rel="alternate" type="application/rss+xml" title="CFD Online Discussion Forums RSS Feed" href="https://www.cfd-online.com/Forums/external.php?type=RSS2" />
+	
+		<link rel="alternate" type="application/rss+xml" title="CFD Online Discussion Forums - Hardware - RSS Feed" href="https://www.cfd-online.com/Forums/external.php?type=RSS2&amp;forumids=21" />
+	
+
+<script type="text/javascript" src="/p7pm/p7popmenu.js"></script>
+<style type="text/css" media="screen">
+<!--
+@import url("/p7pm/cfd_online_mainmenu.css");
+@import url("/CSS/cfdonline.css");
+-->
+</style>
+
+        <!-- App Indexing for Google Search -->
+        <link href="https://www.cfd-online.com/Forums/android-app://com.tapatalk.cfdonlinecomForums/ttbyo-72961/www.cfd-online.com/Forums?location=topic&amp;fid=21&amp;tid=175092&amp;channel=google-indexing" rel="alternate" />
+        <link href="ios-app://936248777/ttbyo-72961/www.cfd-online.com/Forums?location=topic&amp;fid=21&amp;tid=175092&amp;channel=google-indexing" rel="alternate" />
+        
+        <meta property="al:android:package" content="com.tapatalk.cfdonlinecomForums" />
+        <meta property="al:android:url" content="ttbyo-72961://www.cfd-online.com/Forums?location=topic&amp;fid=21&amp;tid=175092&amp;channel=facebook-indexing" />
+        <meta property="al:android:app_name" content="CFD Online Forum" />
+        <meta property="al:ios:url" content="ttbyo-72961://www.cfd-online.com/Forums?location=topic&amp;fid=21&amp;tid=175092&amp;channel=facebook-indexing" />
+        <meta property="al:ios:app_store_id" content="936248777" />
+        <meta property="al:ios:app_name" content="CFD Online Forum" />
+        
+        <!-- twitter app card start-->
+        <!-- https://dev.twitter.com/docs/cards/types/app-card -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@tapatalk" />
+        <meta name="twitter:title" content="Opinion of this self built workstation for CFD modelling" />
+        <meta name="twitter:description" content="CFD Online Discussion Forums" />
+        <meta name="twitter:image" content="https://tapatalk.com/rebranding_icons/icon_url-72961.png" />
+        <meta name="twitter:app:id:iphone" content="936248777" />
+        <meta name="twitter:app:url:iphone" content="ttbyo-72961://www.cfd-online.com/Forums?location=topic&amp;fid=21&amp;tid=175092&amp;channel=twitter-indexing" />
+        <meta name="twitter:app:id:ipad" content="936248777" />
+        <meta name="twitter:app:url:ipad" content="ttbyo-72961://www.cfd-online.com/Forums?location=topic&amp;fid=21&amp;tid=175092&amp;channel=twitter-indexing" />
+        <meta name="twitter:app:id:googleplay" content="com.tapatalk.cfdonlinecomForums" />
+        <meta name="twitter:app:url:googleplay" content="ttbyo-72961://www.cfd-online.com/Forums?location=topic&amp;fid=21&amp;tid=175092&amp;channel=twitter-indexing" />
+        <!-- twitter app card -->
+        
+	<title> Opinion of this self built workstation for CFD modelling -- CFD Online Discussion Forums</title>
+	<script type="text/javascript" src="https://www.cfd-online.com/Forums/clientscript/vbulletin_post_loader.js?v=389"></script>
+	<style type="text/css" id="vbulletin_showthread_css">
+	<!--
+	
+	#tag_edit_list { list-style:none; margin:0px; padding:0px; }
+	#tag_edit_list li { float:left; display:block; width:200px; }
+	#tag_edit_list li.mine { font-weight:bold; }
+	
+	#links div { white-space: nowrap; }
+	#links img { vertical-align: middle; }
+	-->
+	</style>
+<link rel="stylesheet" type="text/css" href="vbseo/resources/css/vbseo_buttons.css?v=a4" />
+<script type="text/javascript" src="vbseo/resources/scripts/vbseo_ui.js?v=a4"></script>
+
+<script type="text/javascript">
+ YAHOO.util.Event.onDOMReady(function (){
+ 	vbseoui = new vBSEO_UI();
+ 	vbseoui.page_init(Array('postbody','blogbit','content','postcontainer','vbseo_like_postbit'), Array("php",1));
+ });
+</script>
+
+</head>
+<body onload="">
+
+<!-- Tapatalk Detect body start -->
+<script type="text/javascript">if (typeof(tapatalkDetect) == "function") tapatalkDetect()</script>
+<!-- Tapatalk Detect banner body end -->
+
+<!-- logo -->
+<a name="top"></a>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-22128555-1', 'cfd-online.com');
+  ga('send', 'pageview');
+
+</script><table id="logo_and_banner" width="98%" border="0" cellpadding="2" cellspacing="0" summary="Logo and Banner Table Layout Table"> 
+  <tr> 
+    <td align="left" valign="top"> 
+      <table id="logo_and_banner" width="275" border="0" cellspacing="0" cellpadding="0"> 
+        <tr> 
+          <td rowspan="2"><img alt="CFD Online Logo" src="/Images/new_cfdonline_logo_main_star.gif" width="60" height="78" /></td> 
+          <td><img alt="CFD Online URL" src="/Images/new_cfdonline_logo_main_name.gif" width="215" height="49" /></td> 
+        </tr> 
+        <tr> 
+          <td colspan="2"><a href="/"><img src="/Images/new_cfdonline_logo_home.gif" alt="www.cfd-online.com" width="215" height="29" longdesc="https://www.cfd-online.com" style="border-style: none" border="0" /></a></td> 
+        </tr> 
+      </table> 
+    </td> 
+    <td align="center" valign="middle" nowrap="nowrap"><!-- #BeginLibraryItem "/Library/Banner Large.lbi" --> 
+      <script language="JavaScript" src="https://www.cfd-online.com/WebAdverts/ads.pl?jscript" type="text/javascript">
+</script> 
+      <noscript> 
+      <a rel="nofollow" href= "https://www.cfd-online.com/WebAdverts/ads.pl?banner=NonSSI;page=navigation" target="_top"> <img src="https://www.cfd-online.com/WebAdverts/ads.pl?page=navigation" 
+		alt="Click Here!" width="468" height="60" border="0" align="middle" /> </a> 
+      </noscript> 
+      <!-- #EndLibraryItem -->
+    </td> 
+<td align="right" valign="top">
+<font face="arial" size="2">[<a href="/About/sponsors.php">Sponsors</a>]</font>
+</td>
+  </tr> 
+</table>
+<table id="main_menu" width="98%" border="0" cellpadding="1" cellspacing="0" summary="Main Menu Table"> 
+<tr> 
+<td> 
+<ul id="p7PMnav"> 
+<li id="mm"><a href="/">Home</a></li> 
+<li id="mm"><a href="/Forum/news.cgi" class="p7PMtrg">News</a> 
+<ul>
+<li id="mm"><a href="/Forum/news.cgi">Index</a></li>
+<li id="mm"><a rel="nofollow" href="/Forum/news.cgi?form=0">Post News</a></li>
+<li id="mm"><a rel="nofollow" href="/Forum/news.cgi?subscribe">Subscribe/Unsubscribe</a></li>
+</ul>
+</li> 
+<li id="mm"><a href="/Forums/" class="p7PMtrg">Forums</a> 
+<ul> 
+<li id="mm"><a href="/Forums/main/">Main CFD Forum</a></li> 
+<li id="mm"><a href="/Forums/system-analysis">System Analysis</a></li>
+<li id="mm"><a href="/Forums/structural-mechanics">Structural Mechanics</a></li>
+<li id="mm"><a href="/Forums/electromagnetics">Electromagnetics</a></li>
+<li id="mm"><a href="/Forums/cfd-freelancers">CFD Freelancers</a></li>
+<li id="mm"><a href="/Forums/hardware/">Hardware Forum</a></li> 
+<li id="mm"><a href="/Forums/lounge/">Lounge</a></li> 
+<li id="mm"><a href="/Forums/software/" class="p7PMtrg">Software User Forums</a>
+<ul>
+<li id="mm"><a href="/Forums/ansys/" class="p7PMtrg">ANSYS</a>
+<ul>
+<li id="mm"><a href="/Forums/cfx/">CFX</a></li> 
+<li id="mm"><a href="/Forums/fluent/">FLUENT</a></li>
+<li id="mm"><a href="/Forums/ansys-meshing/">Meshing &amp; Geometry</a></li> 
+</ul>
+</li>
+<li id="mm"><a href="/Forums/autodesk-simulation-cfd/">Autodesk</a></li>
+<li id="mm"><a href="/Forums/avl-fire/">AVL FIRE</a></li>
+<li id="mm"><a href="/Forums/cd-adapco/" class="p7PMtrg">CD-adapco</a>
+<ul>
+<li id="mm"><a href="/Forums/star-ccm/">STAR-CCM+</a></li> 
+<li id="mm"><a href="/Forums/star-cd/">STAR-CD</a></li> 
+</ul>
+</li>
+<li id="mm"><a href="/Forums/converge/">CONVERGE</a></li>
+<!-- <li id="mm"><a href="/Forums/edge">Edge</a></li>-->
+<li id="mm"><a href="/Forums/floefd-floworks-flotherm">FloEFD &amp; FloTHERM</a></li> 
+<li id="mm"><a href="/Forums/flow-3d/">FLOW-3D</a></li> 
+<li id="mm"><a href="/Forums/numeca/">NUMECA</a></li> 
+<li id="mm"><a href="/Forums/openfoam/" class="p7PMtrg">OpenFOAM</a>
+<ul>
+<li id="mm"><a href="/Forums/openfoam-news-announcements/">News & Announcements</a></li> 
+<li id="mm"><a href="/Forums/openfoam-installation/">Installation</a></li>
+<li id="mm"><a href="/Forums/openfoam-meshing/">Meshing</a></li>
+<li id="mm"><a href="/Forums/openfoam-pre-processing/">Pre-Processing</a></li>
+<li id="mm"><a href="/Forums/openfoam-solving/">Solving</a></li>
+<li id="mm"><a href="/Forums/openfoam-post-processing/">Post-Processing</a></li>
+<li id="mm"><a href="/Forums/openfoam-programming-development/">Programming</a></li>
+<li id="mm"><a href="/Forums/openfoam-verification-validation/">Verification & Validation</a></li>
+<li id="mm"><a href="/Forums/openfoam-bugs/">Bugs</a></li>
+</ul>
+</li>
+<li id="mm"><a href="/Forums/phoenics/">Phoenics</a></li> 
+<li id="mm"><a href="/Forums/su2/" class="p7PMtrg">SU2</a>
+<ul>
+<li id="mm"><a href="/Forums/su2-news-announcements/">News & Announcements</a></li>
+<li id="mm"><a href="/Forums/su2-installation/">Installation</a></li>
+<li id="mm"><a href="/Forums/su2-shape-design/">Shape Design</a></li> 
+</ul>
+</li>
+</ul>
+</li>
+<li id="mm"><a href="/Forums/pre-processors/" class="p7PMtrg">Pre-processors</a>
+<ul>
+<li id="mm"><a href="/Forums/ansa/">ANSA</a></li> 
+<li id="mm"><a href="/Forums/engrid/">enGrid</a></li> 
+<li id="mm"><a href="/Forums/gridpro/">GridPro</a></li> 
+<li id="mm"><a href="/Forums/pointwise/">Pointwise</a></li> 
+</ul>
+</li> 
+<li id="mm"><a href="/Forums/post-processors/" class="p7PMtrg">Post-Processors</a>
+<ul>
+<li id="mm"><a href="/Forums/ensight/">EnSight</a></li> 
+<li id="mm"><a href="/Forums/fieldview/">FieldView</a></li> 
+<li id="mm"><a href="/Forums/paraview/">ParaView</a></li> 
+<li id="mm"><a href="/Forums/tecplot/">Tecplot</a></li> 
+</ul>
+</li>
+<li id="mm"><a href="/Forums/special-topics/" class="p7PMtrg">Special Topics</a>
+<ul>
+<li id="mm"><a href="/Forums/mesh-generation/">Mesh Generation</a></li> 
+<li id="mm"><a href="/Forums/visualization/">Visualization</a></li>  
+</ul>
+</li>
+<li id="mm"><a href="/Forums/community/" class="p7PMtrg">CFD Online Community</a>
+<ul>
+<li id="mm"><a href="/Forums/site-news-announcements/">Site News</a></li> 
+<li id="mm"><a href="/Forums/site-help-feedback-discussions/">Site Help &amp; Discussions</a></li> 
+<li id="mm"><a href="/Forums/cfd-wiki/">CFD-Wiki</a></li> 
+</ul>
+</li> 
+</ul>
+</li> 
+<li id="mm"><a href="/Wiki/Main_Page" class="p7PMtrg">Wiki</a> 
+<ul> 
+<li id="mm"><a href="/Wiki/CFD-Wiki:Introduction">Introduction</a></li>
+<li id="mm"><a href="/Wiki/Special:Recentchanges">Recent Changes</a></li>
+<li id="mm"><a href="/Wiki/Reference_section" class="p7PMtrg">Reference Section</a>
+<ul>
+<li id="mm"><a href="/Wiki/Fluid_dynamics">Fluid Dynamics</a></li> 
+<li id="mm"><a href="/Wiki/Turbulence_modeling">Turbulence Modeling</a></li> 
+<li id="mm"><a href="/Wiki/Numerical_methods">Numerical Methods</a></li> 
+<li id="mm"><a href="/Wiki/Meshing">Meshing</a></li> 
+</ul>
+</li>
+<li id="mm"><a href="/Wiki/Special_topics" class="p7PMtrg">Special Topics</a>
+<ul>
+<li id="mm"><a href="/Wiki/Aero-acoustics_and_noise">Aero-Acoustics</a></li>
+<li id="mm"><a href="/Wiki/Combustion">Combustion</a></li> 
+<li id="mm"><a href="/Wiki/Parallel_computing">Parallel Computing</a></li> 
+<li id="mm"><a href="/Wiki/Turbulence">Turbulence</a></li> 
+</ul>
+</li> 
+<li id="mm"><a href="/Wiki/Application_areas" class="p7PMtrg">Application Areas</a>
+<ul>
+<li id="mm"><a href="/Wiki/Aerospace">Aerospace</a></li> 
+<li id="mm"><a href="/Wiki/Automotive">Automotive</a></li> 
+<li id="mm"><a href="/Wiki/Turbomachinery">Turbomachinery</a></li> 
+</ul>
+</li>
+<li id="mm"><a href="/Wiki/Best_practice_guidelines" class="p7PMtrg">Best Practice Guides</a>
+<ul>
+<li id="mm"><a href="/Wiki/Best_practice_guidelines_for_automotive_CFD">Automotive CFD</a></li> 
+<li id="mm"><a href="/Wiki/Best_practice_guidelines_for_turbomachinery_CFD">Turbomachiney CFD</a></li> 
+<li id="mm"><a href="/Wiki/Best_practice_guidelines_for_heat_transfer_simulations">Heat Transfer CFD</a></li> 
+</ul>
+</li>
+<li id="mm"><a href="/Wiki/Validation_and_test_cases">Validation Cases</a></li>
+<li id="mm"><a href="/Wiki/Codes">Codes</a></li>
+<li id="mm"><a href="/Wiki/Source_code_archive">Source Code Archive</a></li>
+<li id="mm"><a href="/Wiki/FAQ%27s" class="p7PMtrg">FAQ's</a>
+<ul>
+<li id="mm"><a href="/Wiki/Ansys_FAQ">Ansys</a></li>
+<li id="mm"><a href="/Wiki/CD-adapco_FAQ">CD-adapco</a></li>
+<li id="mm"><a href="/Wiki/CHAM_FAQ">CHAM</a></li>
+<li id="mm"><a href="/Wiki/Fluent_FAQ">Fluent</a></li>
+<li id="mm"><a href="/Wiki/Numeca_FAQ">Numeca</a></li>
+</ul>
+</li>
+<li id="mm"><a href="/Wiki/History_of_CFD">History of CFD</a></li>
+<li id="mm"><a href="/Wiki/CFD-Wiki:About" class="p7PMtrg">About CFD-Wiki</a>
+<ul>
+<li id="mm"><a href="/Wiki/Help:Contents">Help</a></li>
+<li id="mm"><a href="/Wiki/CFD-Wiki:FAQ">FAQ</a></li>
+<li id="mm"><a href="/Wiki/CFD-Wiki:Contribute_something_today">Getting Started</a></li>
+<li id="mm"><a href="/Wiki/CFD-Wiki:Community_Portal">Community Portal</a></li>
+<li id="mm"><a href="/Wiki/CFD-Wiki:Donate_texts">Donate Texts</a></li>
+<li id="mm"><a href="/Wiki/CFD-Wiki:Donated_texts">Donated Texts</a></li>
+</ul>
+</li>
+</ul>
+</li> 
+<li id="mm"><a href="/Links/" class="p7PMtrg">Links</a> 
+<ul> 
+<li id="mm"><a href="/Links/whatsnew.html">What's New</a></li> 
+<li id="mm"><a href="/Links/intro.html">Introduction</a></li> 
+<li id="mm"><a href="/Links/modeling_and_numerics.html" class="p7PMtrg">Modeling &amp; Numerics</a> 
+<ul> 
+<li id="mm"><a href="/Links/modeling_and_numerics.html#turbulence">Turbulence</a></li>
+<li id="mm"><a href="/Links/modeling_and_numerics.html#combustion">Combustion</a></li> 
+<li id="mm"><a href="/Links/modeling_and_numerics.html#discr">Discretization Schemes</a></li> 
+<li id="mm"><a href="/Links/modeling_and_numerics.html#solvers">Solvers</a></li> 
+<li id="mm"><a href="/Links/modeling_and_numerics.html#multigrid">Multigrid Methods</a></li> 
+<li id="mm"><a href="/Links/modeling_and_numerics.html#fem">Finite Element Methods</a></li> 
+<li id="mm"><a href="/Links/modeling_and_numerics.html#cartesian">Cartesian Methods / AMR</a></li> 
+<li id="mm"><a href="/Links/modeling_and_numerics.html#numana">Numerial Analysis</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/meshing.html" class="p7PMtrg">Mesh Generation</a> 
+<ul> 
+<li id="mm"><a href="/Links/meshing.html#general">General Resources</a></li> 
+<li id="mm"><a href="/Links/meshing.html#projects">Selected Projects</a></li> 
+<li id="mm"><a href="/Links/meshing.html#companies">Companies</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/programming.html" class="p7PMtrg">Programming &amp; Dev.</a> 
+<ul> 
+<li id="mm"><a href="/Links/programming.html#dataformats">Data Formats</a></li> 
+<li id="mm"><a href="/Links/programming.html#libraries">Software Libraries</a></li> 
+<li id="mm"><a href="/Links/soft.html#num">Numerical Software</a></li> 
+<li id="mm"><a href="/Links/programming.html#parallel">Parallel Computing</a></li> 
+<li id="mm"><a href="/Links/programming.html#general">General Sites</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/soft.html" class="p7PMtrg">Software</a> 
+<ul> 
+<li id="mm"><a href="/Links/soft.html#cfd">Fluid Dynamics</a></li> 
+<li id="mm"><a href="/Links/soft.html#mesh">Mesh Generation</a></li> 
+<li id="mm"><a href="/Links/soft.html#vis">Visualization</a></li> 
+<li id="mm"><a href="/Links/soft.html#com">Commercial CFD Codes</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/hard.html" class="p7PMtrg">Hardware</a> 
+<ul> 
+<li id="mm"><a href="/Links/hard.html#benchmarks">Benchmarks</a></li> 
+<li id="mm"><a href="/Links/hard.html#news">News and Reviews</a></li> 
+<li id="mm"><a href="/Links/hard.html#vendors">Hardware Vendors</a></li> 
+<li id="mm"><a href="/Links/hard.html#clusters">Clusters</a></li> 
+<li id="mm"><a href="/Links/hard.html#gpgpu">GPGPU</a></li> 
+<li id="mm"><a href="/Links/hard.html#misc">Misc</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/refs.html" class="p7PMtrg">References</a> 
+<ul> 
+<li id="mm"><a href="/Links/refs.html#validation">Validation Cases</a></li> 
+<li id="mm"><a href="/Links/refs.html#airfoils">Airfoils</a></li> 
+<li id="mm"><a href="/Links/refs.html#consts">Material Properties</a></li> 
+<li id="mm"><a href="/Links/refs.html#glossaries">Glossaries</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/finddocs.html" class="p7PMtrg">Finding Documents</a> 
+<ul> 
+<li id="mm"><a href="/Links/finddocs.html#preprints">Preprints Online</a></li> 
+<li id="mm"><a href="/Links/finddocs.html#papers">Papers &amp; Reports</a></li> 
+<li id="mm"><a href="/Links/finddocs.html#books">Books</a></li> 
+<li id="mm"><a href="/Links/finddocs.html#journals">Journals</a></li> 
+<li id="mm"><a href="/Links/finddocs.html#publ">Publishers</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/tools.html" class="p7PMtrg">Online Tools</a> 
+<ul> 
+<li id="mm"><a href="/Links/tools.html#units">Unit Converters</a></li> 
+<li id="mm"><a href="/Links/tools.html#calcs">Calculators</a></li> 
+<li id="mm"><a href="/Links/tools.html#yplus">y+ Estimation</a></li> 
+<li id="mm"><a href="/Links/tools.html#compressible">Compressible Flow</a></li>
+<li id="mm"><a href="/Links/tools.html#heat">Heat Transfer</a></li> 
+<li id="mm"><a href="/Links/tools.html#airfoils">Airfoil Generators</a></li> 
+<li id="mm"><a href="/Links/tools.html#simple">Simple Cases</a></li> 
+<li id="mm"><a href="/Links/tools.html#combustion">Combustion</a></li> 
+<li id="mm"><a href="/Links/tools.html#proc">Cycles &amp; Processes</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/onlinedocs.html" class="p7PMtrg">Online Books &amp; Guides</a> 
+<ul> 
+<li id="mm"><a href="/Links/onlinedocs.html#cfdintros">CFD Introductions</a></li> 
+<li id="mm"><a href="/Links/onlinedocs.html#books">Books</a></li> 
+<li id="mm"><a href="/Links/onlinedocs.html#bestpractice">Best Practice Guidelines</a></li> 
+<li id="mm"><a href="/Links/onlinedocs.html#aero">Fluid &amp; Aero Dynamics</a></li>
+<li id="mm"><a href="/Links/onlinedocs.html#seminars">Seminars</a></li>  
+<li id="mm"><a href="/Links/onlinedocs.html#encyclopedias">Encyclopedias</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/cmc.html" class="p7PMtrg">Social Media</a> 
+<ul> 
+<li id="mm"><a href="/Links/cmc.html#forums">Discussion Forums</a></li> 
+<li id="mm"><a href="/Links/cmc.html#blogs">Blogs</a></li> 
+<li id="mm"><a href="/Links/cmc.html#twitter">Twitter</a></li> 
+<li id="mm"><a href="/Links/cmc.html#youtube">YouTube</a></li> 
+<li id="mm"><a href="/Links/cmc.html#facebook">Facebook</a></li> 
+<li id="mm"><a href="/Links/cmc.html#linkedin">LinkedIn</a></li> 
+<li id="mm"><a href="/Links/cmc.html#usenet">Usenet Newsgroups</a></li> 
+<li id="mm"><a href="/Links/cmc.html#mail_lists">Mailing Lists</a></li> 
+<li id="mm"><a href="/Links/cmc.html#chat">Chats</a></li> 
+<li id="mm"><a href="/Links/cmc.html#news">News</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/education.html" class="p7PMtrg">Education</a> 
+<ul> 
+<li id="mm"><a href="/Links/education.html#cfdprogrammes">CFD Programmes</a></li> 
+<li id="mm"><a href="/Links/education.html#onlinelabs">Online Labs</a></li> 
+<li id="mm"><a href="/Links/education.html#onlinecourses">Online Courses</a></li> 
+<li id="mm"><a href="/Links/education.html#coursematerial">Course Material</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/jobs.html" class="p7PMtrg">Jobs</a> 
+<ul> 
+<li id="mm"><a href="/Links/jobs.html#cfd">CFD Job Resources</a></li> 
+<li id="mm"><a href="/Links/jobs.html#orgs">Companies &amp; Orgs.</a></li> 
+<li id="mm"><a href="/Links/jobs.html#general">General Resources</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/events.html" class="p7PMtrg">Events</a> 
+<ul> 
+<li id="mm"><a href="/Links/events.html#calendars">Event Calendars</a></li> 
+<li id="mm"><a href="/Links/events.html#orgs">Specific Organizations</a></li> 
+<li id="mm"><a href="/Links/events.html#vendors">Vendor Events Lists</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/misc.html" class="p7PMtrg">Misc</a> 
+<ul> 
+<li id="mm"><a href="/Links/misc.html#picts">Pictures and Movies</a></li> 
+<li id="mm"><a href="/Links/misc.html#fun">Fun</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Links/links.html">Links to Links</a></li>
+<li id="mm"><a href="/Links/suggest_link.php">Suggest New Link</a></li>
+<li id="mm"><a href="/Links/about.html">About this Section</a></li>
+</ul> 
+</li> 
+<li id="mm"><a href="/Jobs/" class="p7PMtrg">Jobs</a> 
+<ul> 
+<li id="mm"><a href="/Jobs/jobform.php">Post Job Ad</a></li> 
+<li id="mm"><a href="/Jobs/listjobs.php">List All Jobs</a></li> 
+<li id="mm"><a href="/Jobs/listjobs.php" class="p7PMtrg">List Jobs by Type</a> 
+<ul><li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?category=Job%20in%20Industry">Job in Industry (54)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?category=Job%20in%20Academia">Job in Academia (22)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?category=Contract%20Work">Contract Work (3)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?category=PostDoc%20Position">PostDoc Position (29)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?category=PhD%20Studentship">PhD Studentship (60)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?category=Internship">Internship (9)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?category=Misc">Misc (1)</a></li>
+</ul> 
+</li> 
+<li id="mm"><a href="/Jobs/listbyloc.php" class="p7PMtrg">List Jobs by Location</a> 
+<ul> 
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?continent=Asia" class="p7PMtrg">Asia</a>
+<ul>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=China">China (9)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Hong%20Kong">Hong Kong (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=India">India (15)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Singapore">Singapore (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=South%20Korea">South Korea (3)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Taiwan">Taiwan (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Turkey">Turkey (2)</a></li>
+</ul></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?continent=Europe" class="p7PMtrg">Europe</a>
+<ul>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Austria">Austria (5)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Belgium">Belgium (13)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Czech%20Republic">Czech Republic (3)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Finland">Finland (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=France">France (6)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Germany">Germany (16)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Ireland">Ireland (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Italy">Italy (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Luxembourg">Luxembourg (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Netherlands">Netherlands (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Poland">Poland (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Portugal">Portugal (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Spain">Spain (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=United%20Kingdom">United Kingdom (43)</a></li>
+</ul></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?continent=North%20America" class="p7PMtrg">North America</a>
+<ul>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Canada">Canada (6)</a></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=United%20States">United States (37)</a></li>
+</ul></li>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?continent=Oceania" class="p7PMtrg">Oceania</a>
+<ul>
+<li id="mm"><a rel="nofollow" href="/Jobs/listjobs.php?country=Australia">Australia (4)</a></li>
+</ul></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Jobs/search.php">Search Job Ads</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Books/" class="p7PMtrg">Books</a>
+<ul>
+<li id="mm"><a href="/Books/browse_subjects.php">Browse Categories</a></li>
+<li id="mm"><a href="/Books/search_books.php">Search</a></li>
+<li id="mm"><a href="/Books/book_form.php">Submit a Book</a></li>
+<li id="mm"><a href="/Books/help.php">Help</a></li>
+</ul>
+</li> 
+<li id="mm"><a href="/Events/" class="p7PMtrg">Events</a>
+<ul> 
+<li id="mm"><a href="/Events/post.php">Post New Event</a></li> 
+<li id="mm"><a href="/Events/list.php">List All Events</a></li> 
+<li id="mm"><a href="/Events/list.php" class="p7PMtrg">List Events by Type</a> 
+<ul>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_type_id=1">Conferences (26)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_type_id=2">Workshops (3)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_type_id=3">Courses (39)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_type_id=5">User Conferences (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_type_id=6">Online Events (5)</a></li>
+</ul> 
+</li> 
+<li id="mm"><a href="/Events/listbyloc.php" class="p7PMtrg">List Events by Location</a>
+<ul> 
+<li id="mm"><a rel="nofollow" href="/Events/list.php?continent=Africa" class="p7PMtrg">Africa</a>
+<ul>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=74">Algeria (3)</a></li>
+</ul>
+</li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?continent=Asia" class="p7PMtrg">Asia</a>
+<ul>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=10">China (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=25">India (18)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=32">Japan (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=42">Pakistan (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=60">United Arab Emirates (2)</a></li>
+</ul>
+</li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?continent=Europe" class="p7PMtrg">Europe</a>
+<ul>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=3">Austria (4)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=5">Belgium (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=12">Croatia (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=20">Germany (5)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=21">Greece (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=29">Ireland (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=31">Italy (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=50">Slovenia (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=53">Spain (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=54">Sweden (1)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=61">United Kingdom (6)</a></li>
+</ul>
+</li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?continent=North%20America" class="p7PMtrg">North America</a>
+<ul>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=62">United States (14)</a></li>
+</ul>
+</li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?continent=Oceania" class="p7PMtrg">Oceania</a>
+<ul>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=2">Australia (2)</a></li>
+<li id="mm"><a rel="nofollow" href="/Events/list.php?event_country_id=40">New Zealand (1)</a></li>
+</ul></li>
+ 
+</ul> 
+</li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Tools/" class="p7PMtrg">Tools</a> 
+<ul>
+<li id="mm"><a href="javascript:void(window.open('/Tools/rpncalc.html','RPNCalc','status=0,scrollbars=0,resizable=0,width=400,height=365'))">RPN Calculator</a></li>
+<li id="mm"><a href="javascript:void(window.open('/Tools/scicalc.html','SciCalc','status=0,scrollbars=0,resizable=0,width=250,height=345'))">Scientific Calculator</a></li>
+<li id="mm"><a href="/Tools/unit_conversion.php">Unit Conversion</a></li> 
+<li id="mm"><a href="/Tools/yplus.php">Y+ Estimation</a></li> 
+<li id="mm"><a href="/Tools/turbulence.php">Turbulence Properties</a></li> 
+</ul> 
+</li> 
+<li id="mm"><a href="/Feeds/" class="p7PMtrg">Feeds</a>
+<ul>
+<li id="mm"><a href="/Feeds/news.php">News</a></li>
+<li id="mm"><a href="/Feeds/blogs.php">Blogs</a></li>
+<li id="mm"><a href="/Feeds/vendors.php">Vendors</a></li>
+<li id="mm"><a href="/Feeds/jobs.php">Jobs</a></li>
+<li id="mm"><a href="/Feeds/journals.php">Journals</a></li>
+</ul> 
+</li> 
+<li id="mm"><a href="/About/" class="p7PMtrg">About</a> 
+<ul>
+<li id="mm"><a href="/About/">About CFD Online</a></li>
+<li id="mm"><a href="/About/contacts.php">Contacts &amp; Feedback</a></li>
+<li id="mm"><a href="/Stats/">Web Server Statistics</a></li> 
+<li id="mm"><a href="/About/sponsors.php">List of Sponsors</a></li> 
+<li id="mm"><a href="/About/sponsor.php">Advertising on this Site</a></li> 
+</ul> 
+</li> 
+
+<li id="mm"><a href="/Search/">Search</a></li> 
+<!--[if lte IE 6]><style>#p7PMnav a{height:1em;}#p7PMnav li{height:1em;}#p7PMnav ul li{float:left;clear:both;width:100%}</style><![endif]--> 
+<!--[if IE 6]><style>#p7PMnav ul li{clear:none;}</style><![endif]--> 
+</ul> 
+</td> 
+</tr> 
+</table> 
+
+
+<!-- /logo -->
+
+<div id="pageContent">
+<div id="pmmcrumb2"><a id="pmmcr" href="/">Home</a> &gt; <a href="/Forums/">Forums</a> 
+
+&gt; <a href="https://www.cfd-online.com/Forums/hardware/">Hardware</a>
+
+</div>
+</div>
+
+<!-- content table -->
+<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+
+
+
+
+
+<script type="text/javascript" src="https://www.cfd-online.com/Forums/clientscript/latex.js"></script>
+
+<script type="text/javascript">
+<!--
+         P7_initPM(1,3,0,-5,0);
+//-->
+</script><div class="vbmenu_popup" id="vbbloglinks_menu" style="display:none;margin-top:3px" align="left">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead"><a href="https://www.cfd-online.com/Forums/blogs/">Blogs</a></td>
+	</tr>
+	
+	<tr>
+		<td class="vbmenu_option"><a href="https://www.cfd-online.com/Forums/blogs/recent-entries/">Recent Entries</a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><a href="https://www.cfd-online.com/Forums/blogs/best-entries/">Best Entries</a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><a href="https://www.cfd-online.com/Forums/blogs/best-blogs/">Best Blogs</a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><a href="https://www.cfd-online.com/Forums/blogs/all/">Blog List</a></td>
+	</tr>
+	
+	<tr>
+		<td class="vbmenu_option"><a rel="nofollow" href="https://www.cfd-online.com/Forums/blog_search.php?do=search">Search Blogs</a></td>
+	</tr>
+	
+	</table>
+</div>
+<!-- breadcrumb, login, pm info -->
+<table cellpadding="0"  cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	<td class="aalt1" width="100%">
+		
+ 	                          <h1>
+	 Opinion of this self built workstation for CFD modelling
+
+</h1>
+<!--
+			<table cellpadding="0" cellspacing="0" border="0">
+			<tr valign="bottom">
+				<td><a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#" onclick="history.back(1); return false;"><img src="https://www.cfd-online.com/Forums/images/misc/navbits_start.gif" alt="Go Back" border="0" /></a></td>
+				<td>&nbsp;</td>
+				<td width="100%"><span class="navbar"><a href="https://www.cfd-online.com/Forums/" accesskey="1">CFD Online Discussion Forums</a></span> 
+	<span class="navbar">&gt; <a href="https://www.cfd-online.com/Forums/general/">General Forums</a></span>
+
+
+	<span class="navbar">&gt; <a href="https://www.cfd-online.com/Forums/hardware/">Hardware</a></span>
+
+</td>
+			</tr>
+			<tr>
+				<td class="navbar" style="font-size:10pt; padding-top:1px" colspan="3"><a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html"><img class="inlineimg" src="https://www.cfd-online.com/Forums/iconimages/hardware/opinion-self-built-workstation-cfd-modelling_ltr.gif" alt="Opinion of this self built workstation for CFD modelling" border="0" /></a> <strong>
+	 Opinion of this self built workstation for CFD modelling
+
+</strong></td>
+			</tr>
+			</table>
+-->
+		
+	</td>
+
+	<td class="aalt2" nowrap="nowrap" style="padding:0px">
+		<!-- login form -->
+		<form action="https://www.cfd-online.com/Forums/login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)">
+		<script type="text/javascript" src="https://www.cfd-online.com/Forums/clientscript/vbulletin_md5.js?v=389"></script>
+		<table cellpadding="0" cellspacing="3" border="0">
+		<tr>
+			<td class="smallfont" style="white-space: nowrap;"><label for="navbar_username">User Name</label></td>
+			<td><input type="text" class="bginput" style="font-size: 11px" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" onfocus="if (this.value == 'User Name') this.value = '';" /></td>
+			<td class="smallfont" nowrap="nowrap"><label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" checked="yes" tabindex="103" id="cb_cookieuser_navbar" accesskey="c" />Remember Me</label></td>
+		</tr>
+		<tr>
+			<td class="smallfont"><label for="navbar_password">Password</label></td>
+			<td><input type="password" class="bginput" style="font-size: 11px" name="vb_login_password" id="navbar_password" size="10" tabindex="102" /></td>
+			<td><input type="submit" class="button" value="Log in" tabindex="104" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" /></td>
+		</tr>
+		</table>
+		<input type="hidden" name="s" value="" />
+		<input type="hidden" name="securitytoken" value="guest" />
+		<input type="hidden" name="do" value="login" />
+		<input type="hidden" name="vb_login_md5password" />
+		<input type="hidden" name="vb_login_md5password_utf" />
+		</form>
+		<!-- / login form -->
+	</td>
+
+</tr>
+</table>
+<!-- / breadcrumb, login, pm info -->
+
+<!-- nav buttons bar -->
+<div style="padding:1px; border-top-width:0px">
+<!-- 
+<div class="tborder" style="padding:1px; border-top-width:0px">
+-->
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+	<tr align="center">
+		
+		
+			<td class="vbmenu_control"><a href="https://www.cfd-online.com/Forums/register.php" rel="nofollow">Register</a></td>
+		
+		<td class="vbmenu_control"><a id="vbbloglinks" href="https://www.cfd-online.com/Forums/blogs/">Blogs</a><script type="text/javascript">vbmenu_register("vbbloglinks");</script></td>
+                
+		
+			<td class="vbmenu_control"><a id="community" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html?nojs=1#community" rel="nofollow" accesskey="6">Community</a> <script type="text/javascript"> vbmenu_register("community"); </script></td>
+		
+		
+<td class="vbmenu_control"><a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#" id="newpostsmenu">New Posts</a><script type="text/javascript">vbmenu_register("newpostsmenu"); </script></td>
+<td class="vbmenu_control"><a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#" id="updatedthreadsmenu">Updated Threads</a><script type="text/javascript"> vbmenu_register("updatedthreadsmenu"); </script></td>
+			
+				<td class="vbmenu_control"><a id="navbar_search" href="https://www.cfd-online.com/Forums/search.php" accesskey="4" rel="nofollow">Search</a> </td>
+			
+			
+		
+		
+		
+		</tr>
+	</table>
+</div>
+<!-- / nav buttons bar -->
+
+<br />
+
+
+
+
+
+
+<!-- NAVBAR POPUP MENUS -->
+<!-- OWN MENUS -->
+<div class="vbmenu_popup" id="newpostsmenu_menu" style="display:none;margin-top:3px" align="left">
+<table cellpadding="4" cellspacing="1" border="0">
+
+
+<tr><td class="thead">New Today</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;showposts=1">All Forums</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;showposts=1&amp;include=2">Main CFD Forum</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;showposts=1&amp;include=4">ANSYS - CFX</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;showposts=1&amp;include=7,17">ANSYS - FLUENT</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;showposts=1&amp;include=16">ANSYS - Meshing</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;showposts=1&amp;include=10,14,15">CD-adapco</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;showposts=1&amp;include=23,49,53,27,28,34,40,51,41,38,35,42,47,29,33,32,52,56,26">OpenFOAM</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;showposts=1&amp;include=73,74,79,80">SU2</a>
+</td></tr>
+<tr><td class="thead">Last Week</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;showposts=1">All Forums</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;showposts=1&amp;include=2">Main CFD Forum</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;showposts=1&amp;include=4">ANSYS - CFX</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;showposts=1&amp;include=7,17">ANSYS - FLUENT</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;showposts=1&amp;include=16">ANSYS - Meshing</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;showposts=1&amp;include=10,14,15">CD-adapco</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;showposts=1&amp;include=23,49,53,27,28,34,40,51,41,38,35,42,47,29,33,32,52,56,26">OpenFOAM</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;showposts=1&amp;include=73,74,79,80">SU2</a>
+</td></tr>
+
+</table>
+</div>
+<div class="vbmenu_popup" id="updatedthreadsmenu_menu" style="display:none;margin-top:3px" align="left">
+<table cellpadding="4" cellspacing="1" border="0">
+
+
+<tr><td class="thead">Updated Today</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily">All Forums</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;include=2">Main CFD Forum</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;include=4">ANSYS - CFX</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;include=7,17">ANSYS - FLUENT</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;include=16">ANSYS - Meshing</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;include=10,14,15">CD-adapco</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;include=23,49,53,27,28,34,40,51,41,38,35,42,47,29,33,32,52,56,26">OpenFOAM</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a href="https://www.cfd-online.com/Forums/search.php?do=getdaily&amp;include=73,74,79,80">SU2</a>
+</td></tr>
+<tr><td class="thead">Last Week</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly">All Forums</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;include=2">Main CFD Forum</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;include=4">ANSYS - CFX</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;include=7,17">ANSYS - FLUENT</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;include=16">ANSYS - Meshing</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;include=10,14,15">CD-adapco</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;include=23,49,53,27,28,34,40,51,41,38,35,42,47,29,33,32,52,56,26">OpenFOAM</a>
+</td></tr>
+<tr><td class="vbmenu_option">
+<a rel="nofollow" href="https://www.cfd-online.com/Forums/search.php?do=getweekly&amp;include=73,74,79,80">SU2</a>
+</td></tr>
+
+</table>
+</div>
+<!-- /OWN MENUS -->
+	
+	<!-- community link menu -->
+	<div class="vbmenu_popup" id="community_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr><td class="thead">Community Links</td></tr>
+		
+		
+		
+		
+		
+			<tr><td class="vbmenu_option"><a href="https://www.cfd-online.com/Forums/members/list/">Members List</a></td></tr>
+		
+		
+		</table>
+	</div>
+	<!-- / community link menu -->
+	
+	
+	
+	<!-- header quick search form -->
+	<div class="vbmenu_popup" id="navbar_search_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead">Search Forums</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+				<form action="https://www.cfd-online.com/Forums/search.php?do=process" method="post">
+
+					<input type="hidden" name="do" value="process" />
+					<input type="hidden" name="quicksearch" value="1" />
+					<input type="hidden" name="childforums" value="1" />
+					<input type="hidden" name="exactname" value="1" />
+					<input type="hidden" name="s" value="" />
+					<input type="hidden" name="securitytoken" value="guest" />
+					<div><input type="text" class="bginput" name="query" size="25" tabindex="1001" /><input type="submit" class="button" value="Go" tabindex="1004" /></div>
+					<div style="margin-top:7px">
+						<label for="rb_nb_sp0"><input type="radio" name="showposts" value="0" id="rb_nb_sp0" tabindex="1002" checked="checked" />Show Threads</label>
+						&nbsp;
+						<label for="rb_nb_sp1"><input type="radio" name="showposts" value="1" id="rb_nb_sp1" tabindex="1003" />Show Posts</label>
+					</div>
+				</form>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option"><a href="https://www.cfd-online.com/Forums/tags/" rel="nofollow">Tag Search</a></td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option"><a href="https://www.cfd-online.com/Forums/search.php" accesskey="4" rel="nofollow">Advanced Search</a></td>
+		</tr>
+		<tr>
+	<td class="thead">Search Blogs</td>
+</tr>
+<tr>
+	<td class="vbmenu_option" title="nohilite">
+		<form action="https://www.cfd-online.com/Forums/blog_search.php?do=dosearch" method="post">
+			<input type="hidden" name="s" value="" />
+			<input type="hidden" name="securitytoken" value="guest" />
+			<input type="hidden" name="do" value="dosearch" />
+			<input type="hidden" name="quicksearch" value="1" />
+			<div><input type="text" class="bginput" name="text" size="25" tabindex="2003" /><input type="submit" class="button" value="Go" tabindex="2004" /></div>
+		</form>
+	</td>
+</tr>
+
+<tr>
+	<td class="vbmenu_option"><a href="https://www.cfd-online.com/Forums/blogs/tags/" rel="nofollow">Tag Search</a></td>
+</tr>
+
+<tr>
+	<td class="vbmenu_option"><a rel="nofollow" href="https://www.cfd-online.com/Forums/blog_search.php?do=search">Advanced Search</a></td>
+</tr>
+		</table>
+	</div>
+	<!-- / header quick search form -->
+	
+	
+	
+<!-- / NAVBAR POPUP MENUS -->
+
+<!-- PAGENAV POPUP -->
+	<div class="vbmenu_popup" id="pagenav_menu" style="display:none">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead" nowrap="nowrap">Go to Page...</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+			<form action="https://www.cfd-online.com/Forums/" method="get" onsubmit="return this.gotopage()" id="pagenav_form">
+				<input type="text" class="bginput" id="pagenav_itxt" style="font-size:11px" size="4" />
+				<input type="button" class="button" id="pagenav_ibtn" value="Go" />
+			</form>
+			</td>
+		</tr>
+		</table>
+	</div>
+<!-- / PAGENAV POPUP -->
+
+
+
+
+
+
+
+
+
+
+<a name="poststop" id="poststop"></a><div id="vbseo-likes">
+      <span class="vbseo-likes-count" onclick="vbseoui.tree_dropdown()"><img src="https://www.cfd-online.com/Forums/vbseo/resources/images/forum/vbseo_likes_heart.png" class="vbseo-likes-count-image" alt="Like Tree" />2<em>Likes</em></span>
+      <div id="liketree_1.175092" class="vbseo-likes-container">
+		<ul class="vbseo-likes-tabs">
+			<li><a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#" onclick="return vbseoui.treetab_click(0)">Top</a></li>
+			<li><a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#" onclick="return vbseoui.treetab_click(1)">All</a></li>
+			
+			<li><a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#" onclick="return vbseoui.treetab_click(2)">This Page</a></li>
+			
+			<li class="vbseo-likes-fusion"></li>
+		</ul>
+		<ul class="vbseo-likes-list">
+		 
+		</ul>
+	  </div>
+</div>
+
+<script type="text/javascript">
+var vbseoui_pageids = "611029,611051,611096,611197,616139,616367,616537,616549,616550,616603,616669,616689,616725,617262,617277,617828,617844,617848,618614,618630";
+</script><br />
+ 
+
+<!-- controls above postbits -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:3px">
+<tr valign="bottom">
+	
+		<td class="smallfont"><a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;noquote=1&amp;p=611029" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/reply.gif" alt="Reply" border="0" /></a></td>
+	
+	<td align="right"><div class="pagenav" align="right">
+<table class="tborder" cellpadding="3" cellspacing="1" border="0">
+<tr>
+	<td class="vbmenu_control" style="font-weight:normal">Page 1 of 2</td>
+	
+	
+		<td class="alt2"><span class="smallfont" title="Showing results 1 to 20 of 29"><strong>1</strong></span></td>
+ <td class="alt1"><a class="smallfont" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling-2.html" title="Show results 21 to 29 of 29">2</a></td>
+	<td class="alt1"><a rel="next" class="smallfont" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling-2.html" title="Next Page - Results 21 to 29 of 29">&gt;</a></td>
+	
+	<td class="vbmenu_control" title="showthread.php?t=175092"><a name="PageNav"></a></td>
+</tr>
+</table>
+</div></td>
+</tr>
+</table>
+<!-- / controls above postbits -->
+
+<!-- toolbar -->
+<table class="tborder" cellpadding="7" cellspacing="1" border="0" width="100%" align="center" style="border-bottom-width:0px">
+<tr>
+	<td class="tcat" width="100%">
+		<div class="smallfont">
+		
+		&nbsp;
+		</div>
+	</td>
+	
+<td class="vbmenu_control" id="linkbacktools" nowrap="nowrap">
+	<a rel="nofollow" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html?nojs=1#links">LinkBack</a>
+	<script type="text/javascript"> vbmenu_register("linkbacktools"); </script>
+</td>
+<td class="vbmenu_control" id="threadtools" nowrap="nowrap">
+		<a rel="nofollow" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html?nojs=1#goto_threadtools">Thread Tools</a>
+		<script type="text/javascript"> vbmenu_register("threadtools"); </script>
+	</td>
+	
+	
+	
+	<td class="vbmenu_control" id="displaymodes" nowrap="nowrap">
+		<a rel="nofollow" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html?nojs=1#goto_displaymodes">Display Modes</a>
+		<script type="text/javascript"> vbmenu_register("displaymodes"); </script>
+	</td>
+	
+
+	
+
+</tr>
+</table>
+<!-- / toolbar -->
+
+
+
+<!-- end content table -->
+
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<!-- / end content table -->
+
+
+
+
+
+<div id="posts"><!-- post #611029 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit611029" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post611029" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post611029"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; July 23, 2016, 10:10
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Post" border="0" />
+				<strong>Opinion of this self built workstation for CFD modelling</strong>
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post611029"   id="postcount611029" name="1" title="permalink"><strong>1</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_611029">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/hajart.html">Hajart</a>
+				
+				
+			</div>
+			<div class="smallfont">New Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     
+				<div>Join Date: Jul 2016</div>
+				
+				
+				<div>
+					Posts: 2
+				</div>
+				
+				
+				Rep Power: <span id="reppower_611029_190206">0</span> <div><span id="repdisplay_611029_190206"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="Hajart is on a distinguished road" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_611029" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_611029">
+			
+			
+      
+	  		<div style="WIDTH: 300px; FLOAT: right; HEIGHT: 250px; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px; MARGIN-BOTTOM: 10px;">
+					<div class="smallfont" align="center">
+        Sponsored Links
+      </div>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- apriliaforum -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-2350029621617309"
+     data-ad-slot="1298701670"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+			</div>
+	  
+     Greetings Everyone,<br />
+<br />
+I have just started a PhD on renewable energy modelling which will require to couple near-field and far-field CFD models of an estuary. My supervisor gave me the task of building a workstation. I am quite relatively new to CFD modelling having a civil engineering background and after long hours of research on the web, I designed a workstation with the following spec (Budget around £2000):<br />
+<br />
+Motherboard: ASRock X99 Extreme6 - ATX - LGA2011-V3 Socket - X99 (£169)<br />
+CPU: Intel Xeon E5-2630V4 / 2.2 GHz processor (£661)<br />
+GPU: ASUS NVIDIA GeForce GTX 960 Graphics Card - 4G (£216)<br />
+RAM: 8*16GB Kingston - DDR4 - 2133 - DIMM 288-pin (£75)<br />
+Sound Card: ASUS Xonar DS - sound card (£43)<br />
+SSD: Samsung 850 PRO MZ-7KE128BW - 128 GB - SATA 6Gb/S (£71)<br />
+Harddrive: WD Black 2TB Performance Desktop Hard Disk Drive 7200 RPM SATA 6 Gb/S (£118)<br />
+Case: Antec Performance One P100 (£85)<br />
+Power Supply: Antec VP700P (£65)<br />
+Fans: 2*Antec TrueQuiet 140 - Case fan - 140 mm (£23)<br />
+CPU Fan: <b>This is where I need help because I don't know if I need to buy a square ILM or Narrow ILM CPU Cooler</b><br />
+<br />
+Could someone confirm that all the components for this workstation are compatible for linux ubuntu and tell me if the component association is adequate to run smoothly CFD models using FVCOM and Hydro3D thanks!!
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.611029">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="Hajart is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=611029" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+      
+	  		<div style="padding: 7px 0px 0px 0px">
+				<table class="tborder" cellpadding="7" cellspacing="1" border="0" width="100%" align="center">
+					
+						<tr>
+							<td class="thead" align="left">
+        Sponsored Links
+      </td>
+						</tr>
+					
+					<tr>
+						<td class="alt1" align="center">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- apriliaforum -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2350029621617309"
+     data-ad-slot="1298701670"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+						</td>
+					</tr>
+				</table>
+			</div>
+	  
+    
+ 
+<!-- post 611029 popup menu -->
+
+<!-- / post 611029 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #611029 --><!-- post #611051 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit611051" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post611051" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post611051"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; July 23, 2016, 16:26
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post611051"   id="postcount611051" name="2" title="permalink"><strong>2</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_611051">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/flotus1.html">flotus1</a>
+				
+				
+			</div>
+			<div class="smallfont">Senior Member</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="https://www.cfd-online.com/Forums/members/flotus1.html"><img src="https://www.cfd-online.com/Forums/avatars/flotus1.gif?dateline=1427382606" width="80" height="61" alt="flotus1's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     <div><b>Alex</b></div>
+				<div>Join Date: Jun 2012</div>
+				<div>Location: Germany</div>
+				
+				<div>
+					Posts: 1,501
+				</div>
+				
+				
+				Rep Power: <span id="reppower_611051_58702">25</span> <div><span id="repdisplay_611051_58702"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_611051" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_611051">
+			
+			 This Workstation will get the job done, but it might not be the ideal choice.<br />
+<br />
+Motherboard: ASRock X99 Extreme6 - ATX - LGA2011-V3 Socket - X99 (£169)<br />
+This Motherboard will support Broadwell-E CPUs after a bios update, but I would recommend getting a motherboard that was specifically designed for Broadwell-E Processors. For example Asus X99-A II.<br />
+<br />
+CPU: Intel Xeon E5-2630V4 / 2.2 GHz processor (£661)<br />
+This CPU has 10 relatively slow cores, only supports slow memory and you pay a premium price for 2S scalability. The better option is the Core I7-6900k. It has a high clock speed and can use fast memory. Both the memory and the CPU can be overclocked. It is more expensive than your iniital choice but definitely worth the money. Get a &quot;boxed&quot; version although you won't use the stock cooler. <br />
+<br />
+GPU: ASUS NVIDIA GeForce GTX 960 Graphics Card - 4G (£216)<br />
+Good choice with linux compatibility in mind. Though the price seems a bit high for a GTX 960.<br />
+<br />
+RAM: 8*16GB Kingston - DDR4 - 2133 - DIMM 288-pin (£75)<br />
+Are you sure that you need 128GB of RAM in a single-cpu workstation? I would start with 4*16GB, you can still upgrade later if necessary.<br />
+To be on the safe side use memory from the QVL of your motherboard: <a href="http://dlcdnet.asus.com/pub/ASUS/mb/LGA2011/X99-A/X99_Series_DRAM_QVL_for_i7-69xx_68xx_processors.pdf?_ga=1.99810846.1613886274.1469304114" target="_blank">http://dlcdnet.asus.com/pub/ASUS/mb/...274.1469304114</a><br />
+Use the fastest 16GB modules you can afford, I recommend DDR4-3000 or higher.<br />
+<br />
+Sound Card: ASUS Xonar DS - sound card (£43)<br />
+Do you really need a separate sound card? Virtually all motherboards have onboard sound.<br />
+<br />
+SSD: Samsung 850 PRO MZ-7KE128BW - 128 GB - SATA 6Gb/S (£71)<br />
+The 850 pro is not worth the money compared to a 850 Evo. You should be able to get the 250GB version for the same price.<br />
+<br />
+Harddrive: WD Black 2TB Performance Desktop Hard Disk Drive 7200 RPM SATA 6 Gb/S (£118)<br />
+I personally think that HDDs with less than 4TB are a waste of space and would recommend the HGST MegaScale DC 4000.B 4TB. But that is just my personal opinion.<br />
+<br />
+Case: Antec Performance One P100 (£85)<br />
+That should do. My choice would be Fractal Design Define R5 since it comes with 3 140mm fans for quiet operation. Antec Performance One P100 only has room for one 120mm fan in the back which is quite obsolete.<br />
+<br />
+Power Supply: Antec VP700P (£65)<br />
+No. Get a decent quality power supply that does not have to be oversized, for example BeQuiet Straight power E10 400W.<br />
+<br />
+Fans: 2*Antec TrueQuiet 140 - Case fan - 140 mm (£23)<br />
+Depends on the case...<br />
+<br />
+CPU Fan:<br />
+The motherboard you had in mind and the one i recommended use square ILM layout.<br />
+I would recommend one of the these two: Noctua NH-D15 or BeQuiet Dark Rock Pro 3.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.611051">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				Please do not send me CFD-related questions via PM
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="flotus1 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=611051" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 611051 popup menu -->
+
+<!-- / post 611051 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #611051 --><!-- post #611096 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit611096" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post611096" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post611096"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; July 24, 2016, 09:59
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Post" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post611096"   id="postcount611096" name="3" title="permalink"><strong>3</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_611096">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/hajart.html">Hajart</a>
+				
+				
+			</div>
+			<div class="smallfont">New Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     
+				<div>Join Date: Jul 2016</div>
+				
+				
+				<div>
+					Posts: 2
+				</div>
+				
+				
+				Rep Power: <span id="reppower_611096_190206">0</span> <div><span id="repdisplay_611096_190206"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="Hajart is on a distinguished road" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_611096" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_611096">
+			
+			 Cheers Alex, really appreciate for the times you’ve put to make this detailed review of my spec.<br />
+I have taken some of your advice and recommendation on board:<br />
+<br />
+Motherboard: I think I will stick with the ASRock as its price is relatively cheap and based on reviews I read the BIOS seems really sturdy and complete.<br />
+<br />
+CPU + RAM: If I reduced the RAM to 64GB then it gives me the budget to invest in the i7-6900K. So I think I will go for this processor with 4*16 “Corsair Vengeance LPX - DDR4 - 64 GB : 4 x 16 GB - DIMM 288-pin”.<br />
+<br />
+Sound Card: I have gotten rid of it, as it is not necessary.<br />
+<br />
+SSD: I went for the 850 Evo 250Gb.<br />
+<br />
+HDD: I kept the same one, I will expand if need be.<br />
+<br />
+Case + Fan: I followed your advice and went for the Fractal Design Define R5.<br />
+<br />
+Power supply: I took a 80glod certified power supply as I couldn’t find your specific one in my university provider website. I went for the “Fractal Design Edison M 550W - power supply - 550 Watt”<br />
+<br />
+CPU Cooler: I went for the Noctua NH-U9DX i4 as yours were not available on the supplier website.<br />
+<br />
+I have one question, I believe that the Xeon processors are appreciated in CFD Modelling as they support ECC-RAM that reduces significantly the occurrence of simulation crash. It appears that with the i7-6900K I trade computational power over safety and stability of the ECC-RAM and Xeon processor, was a novice in CFD Modelling is that trade worth doing ?
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.611096">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="Hajart is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=611096" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 611096 popup menu -->
+
+<!-- / post 611096 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #611096 --><!-- post #611197 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit611197" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post611197" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post611197"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; July 25, 2016, 05:45
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post611197"   id="postcount611197" name="4" title="permalink"><strong>4</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_611197">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/flotus1.html">flotus1</a>
+				
+				
+			</div>
+			<div class="smallfont">Senior Member</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="https://www.cfd-online.com/Forums/members/flotus1.html"><img src="https://www.cfd-online.com/Forums/avatars/flotus1.gif?dateline=1427382606" width="80" height="61" alt="flotus1's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     <div><b>Alex</b></div>
+				<div>Join Date: Jun 2012</div>
+				<div>Location: Germany</div>
+				
+				<div>
+					Posts: 1,501
+				</div>
+				
+				
+				Rep Power: <span id="reppower_611197_58702">25</span> <div><span id="repdisplay_611197_58702"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_611197" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_611197">
+			
+			 The Edison PSU is an excellent choice aswell.<br />
+For the CPU cooler, we have the same in one of our workstations but only for one reason: there was not enough space for larger coolers and the CPUs have a TDP of only 95W.<br />
+If you choose the I7-6900k which has a TDP of 140W it is a bit flimsy and will be quite noisy. I would recommend some top-range air cooler with at least two 140mm fans for quiet operation.<br />
+I hope the RAM you got is specified for at least DDR4-3000. Remember, memory bandwidth is very important for most CFD workloads. Fast memory is the cheapest way to get more performance.<br />
+<br />
+I did not mention the ECC issue because you initially did not have ECC memory in your build. So I assumed you had already decided against it.<br />
+While it is true that ECC can prevent some soft-errors, this is usually not relevant for single-CPU workstations with a moderate amount of memory because these kinds of errors are pretty rare. If you can not tolerate a single soft-error during the whole life-time of the workstation of course you should use ECC memory. It is a trade-off between preventing very rare errors on the one hand and about 40-50% more performance for the same price on the other hand.<br />
+<br />
+One last thing: keep in mind that if your motherboard comes shipped with an old bios version, you will need a &quot;spare&quot; Haswell-E CPU to do the bios update. The PC will not boot at all with a Broadwell-E CPU in this case. That is one of the main reasons why I recommended a new motherboard. Of course this is not an issue you do not assemble the workstation yourself which is what I would recommend.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.611197">
+
+    <div class="alt2 vbseo_liked"><a href="https://www.cfd-online.com/Forums/members/eike.html">Eike</a> likes this.</div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				Please do not send me CFD-related questions via PM
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="flotus1 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=611197" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 611197 popup menu -->
+
+<!-- / post 611197 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #611197 --><!-- post #616139 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit616139" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post616139" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post616139"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; August 31, 2016, 11:28
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post616139"   id="postcount616139" name="5" title="permalink"><strong>5</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_616139">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/hyugakojiro999.html">hyugakojiro999</a>
+				
+				
+			</div>
+			<div class="smallfont">New Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     
+				<div>Join Date: May 2016</div>
+				
+				
+				<div>
+					Posts: 18
+				</div>
+				
+				
+				Rep Power: <span id="reppower_616139_186750">3</span> <div><span id="repdisplay_616139_186750"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="hyugakojiro999 is on a distinguished road" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_616139" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_616139">
+			
+			 hi flotus1,<br />
+<br />
+-Could u pls explain why mhz of Ram's is very important? Are there any tests done for this comparison?<br />
+<br />
+I'm looking for 2. hand 5960x cpu. Can u recommend motherboard for this cpu? I cant afford too much. In fact, i think msi raider would be OK enough.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.616139">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="hyugakojiro999 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=616139" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 616139 popup menu -->
+
+<!-- / post 616139 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #616139 --><!-- post #616367 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit616367" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post616367" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post616367"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 2, 2016, 06:11
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post616367"   id="postcount616367" name="6" title="permalink"><strong>6</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_616367">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/flotus1.html">flotus1</a>
+				
+				
+			</div>
+			<div class="smallfont">Senior Member</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="https://www.cfd-online.com/Forums/members/flotus1.html"><img src="https://www.cfd-online.com/Forums/avatars/flotus1.gif?dateline=1427382606" width="80" height="61" alt="flotus1's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     <div><b>Alex</b></div>
+				<div>Join Date: Jun 2012</div>
+				<div>Location: Germany</div>
+				
+				<div>
+					Posts: 1,501
+				</div>
+				
+				
+				Rep Power: <span id="reppower_616367_58702">25</span> <div><span id="repdisplay_616367_58702"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_616367" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_616367">
+			
+			 Higher memory frequency translates into higher memory bandwidth. This allows data to be exchanged faster between CPU and memory which translates into a considerable performance improvement for many CFD applications. Maximizing memory bandwidth is a cheap and easy way to improve the performance of CFD workstation.<br />
+If you are looking for a cost-efficient CPU, the I7-5960x might not be your best choice since the two additional cores cost a lot. An I7-5820k should offer more &quot;bang for the buck&quot;.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.616367">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				Please do not send me CFD-related questions via PM
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="flotus1 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=616367" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 616367 popup menu -->
+
+<!-- / post 616367 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #616367 --><!-- post #616537 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit616537" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post616537" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post616537"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 4, 2016, 15:47
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post616537"   id="postcount616537" name="7" title="permalink"><strong>7</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_616537">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/hyugakojiro999.html">hyugakojiro999</a>
+				
+				
+			</div>
+			<div class="smallfont">New Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     
+				<div>Join Date: May 2016</div>
+				
+				
+				<div>
+					Posts: 18
+				</div>
+				
+				
+				Rep Power: <span id="reppower_616537_186750">3</span> <div><span id="repdisplay_616537_186750"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="hyugakojiro999 is on a distinguished road" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_616537" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_616537">
+			
+			 <div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="7" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>flotus1</strong>
+					<a href="https://www.cfd-online.com/Forums/hardware/172973-comparison-between-intel-cpus-xeon-e5-2643-v4-intel-i7-5820k.html#post614314" rel="nofollow"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">To start with you might want to read this thread,  it covers most of your questions (and some you did not ask but should  know about):<br />
+<a href="http://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html" target="_blank">http://www.cfd-online.com/Forums/har...modelling.html</a><br />
+<br />
+I would go with the I7-6800k. It will draw less power and has better RAM  compatibility when it comes to large quantities and high frequency. <br />
+Never mind that these CPUs officially support only up to DDR4-2400.  Using XMP profiles or manual adjustment you can usually use much faster  RAM. Be aware that beyond DDR4-2800, the CPU strap might be increased to  125MHz automatically. You might have to reduce the CPU multiplier to  compensate for this.<br />
+Use the least amount of DIMMs possible to start with. In your case since  you are aiming for 64GB total that would be 4*16GB. This increases  system stability and RAM can be upgraded later if necessary.<br />
+<br />
+Whatever you do, do not buy a Nvidia GT 730. It is old and slow. You  will have trouble post-processing larger simulations with such a flimsy  graphics card. The minimum should be a GTX 750TI with 2GB GDDR5.<br />
+Edit: And get an SSD with at least 240GB. Smaller models are just not  worth the money and you will run out of disk space rather sooner than  later.</div>
+			
+		</td>
+	</tr>
+	</table>
+</div>- Beyond DDR4-2800mhz, 125mhz CPU multiplier may occur u say. If so, lets say instead of 100*40=4Ghz, 125*32=4Ghz will be chosen. Will this stable and OK?<br />
+<br />
+- Can you suggest motherboard for 5820K? (Planning Overclock), Do you suggest CPU cooler NH D15 Noctua?<br />
+<br />
+- Are there any advantages (calculation time etc.) 64GB RAM over 32GB RAM ?  (Lets say 5milyon meshes only for both cases)
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.616537">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="hyugakojiro999 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=616537" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 616537 popup menu -->
+
+<!-- / post 616537 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #616537 --><!-- post #616549 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit616549" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post616549" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post616549"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 4, 2016, 19:17
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post616549"   id="postcount616549" name="8" title="permalink"><strong>8</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_616549">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/flotus1.html">flotus1</a>
+				
+				
+			</div>
+			<div class="smallfont">Senior Member</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="https://www.cfd-online.com/Forums/members/flotus1.html"><img src="https://www.cfd-online.com/Forums/avatars/flotus1.gif?dateline=1427382606" width="80" height="61" alt="flotus1's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     <div><b>Alex</b></div>
+				<div>Join Date: Jun 2012</div>
+				<div>Location: Germany</div>
+				
+				<div>
+					Posts: 1,501
+				</div>
+				
+				
+				Rep Power: <span id="reppower_616549_58702">25</span> <div><span id="repdisplay_616549_58702"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_616549" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_616549">
+			
+			 When the CPU strap is increased automatically to 125 MHz, many systems will not boot anymore with all other settings at their default value. I only mentioned this because it is the origin of a common misconception about the X99-platform: &quot;Memory faster than DDR4-2800 is unstable&quot;. It is not. All you have to do is to decrease the multiplier or increase the CPU voltage.<br />
+The Noctua NH-D15 is about as good as it gets with air-cooling. A good choice if you want to overclock the CPU.<br />
+If a simulation fits within 32 GB of RAM, there is no benefit from more RAM. Other than the possibility of running other memory-intensive tasks at the same time. But of course this will increase simulation time to some extent.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.616549">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				Please do not send me CFD-related questions via PM
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="flotus1 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=616549" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 616549 popup menu -->
+
+<!-- / post 616549 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #616549 --><!-- post #616550 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit616550" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post616550" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post616550"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 4, 2016, 20:23
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post616550"   id="postcount616550" name="9" title="permalink"><strong>9</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_616550">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/hyugakojiro999.html">hyugakojiro999</a>
+				
+				
+			</div>
+			<div class="smallfont">New Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     
+				<div>Join Date: May 2016</div>
+				
+				
+				<div>
+					Posts: 18
+				</div>
+				
+				
+				Rep Power: <span id="reppower_616550_186750">3</span> <div><span id="repdisplay_616550_186750"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="hyugakojiro999 is on a distinguished road" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_616550" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_616550">
+			
+			 Thank You very much for the reply my friend,<br />
+<br />
+Asrock Taichi,<br />
+Msi Sli Plus,<br />
+Asus X99A or Deluxe,<br />
+Evga Classified<br />
+<br />
+and these are the motherboards that i will chose one of them. What do you think?
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.616550">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="hyugakojiro999 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=616550" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 616550 popup menu -->
+
+<!-- / post 616550 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #616550 --><!-- post #616603 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit616603" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post616603" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post616603"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 5, 2016, 06:09
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post616603"   id="postcount616603" name="10" title="permalink"><strong>10</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_616603">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/flotus1.html">flotus1</a>
+				
+				
+			</div>
+			<div class="smallfont">Senior Member</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="https://www.cfd-online.com/Forums/members/flotus1.html"><img src="https://www.cfd-online.com/Forums/avatars/flotus1.gif?dateline=1427382606" width="80" height="61" alt="flotus1's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     <div><b>Alex</b></div>
+				<div>Join Date: Jun 2012</div>
+				<div>Location: Germany</div>
+				
+				<div>
+					Posts: 1,501
+				</div>
+				
+				
+				Rep Power: <span id="reppower_616603_58702">25</span> <div><span id="repdisplay_616603_58702"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_616603" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_616603">
+			
+			 I usually recommend the Asus X99-A II. It is relatively cheap and has all the features I consider useful, among others USB 3.1 and m.2 connector.<br />
+Unless you know a reason to spend more money on a specific motherboard, use this.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.616603">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				Please do not send me CFD-related questions via PM
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="flotus1 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=616603" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 616603 popup menu -->
+
+<!-- / post 616603 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #616603 --><!-- post #616669 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit616669" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post616669" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post616669"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 5, 2016, 13:25
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post616669"   id="postcount616669" name="11" title="permalink"><strong>11</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_616669">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/hyugakojiro999.html">hyugakojiro999</a>
+				
+				
+			</div>
+			<div class="smallfont">New Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     
+				<div>Join Date: May 2016</div>
+				
+				
+				<div>
+					Posts: 18
+				</div>
+				
+				
+				Rep Power: <span id="reppower_616669_186750">3</span> <div><span id="repdisplay_616669_186750"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="hyugakojiro999 is on a distinguished road" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_616669" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_616669">
+			
+			 &quot;Asus X99-A II&quot; is not compatible with 2011-v3 my friend.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.616669">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="hyugakojiro999 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=616669" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 616669 popup menu -->
+
+<!-- / post 616669 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #616669 --><!-- post #616689 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit616689" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post616689" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post616689"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 5, 2016, 19:46
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post616689"   id="postcount616689" name="12" title="permalink"><strong>12</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_616689">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/flotus1.html">flotus1</a>
+				
+				
+			</div>
+			<div class="smallfont">Senior Member</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="https://www.cfd-online.com/Forums/members/flotus1.html"><img src="https://www.cfd-online.com/Forums/avatars/flotus1.gif?dateline=1427382606" width="80" height="61" alt="flotus1's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     <div><b>Alex</b></div>
+				<div>Join Date: Jun 2012</div>
+				<div>Location: Germany</div>
+				
+				<div>
+					Posts: 1,501
+				</div>
+				
+				
+				Rep Power: <span id="reppower_616689_58702">25</span> <div><span id="repdisplay_616689_58702"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_616689" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_616689">
+			
+			 Of course it is. Where did you find this wrong information? And which CPU socket is it according to your source?
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.616689">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				Please do not send me CFD-related questions via PM
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="flotus1 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=616689" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 616689 popup menu -->
+
+<!-- / post 616689 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #616689 --><!-- post #616725 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit616725" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post616725" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post616725"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 6, 2016, 03:50
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post616725"   id="postcount616725" name="13" title="permalink"><strong>13</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_616725">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/hyugakojiro999.html">hyugakojiro999</a>
+				
+				
+			</div>
+			<div class="smallfont">New Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     
+				<div>Join Date: May 2016</div>
+				
+				
+				<div>
+					Posts: 18
+				</div>
+				
+				
+				Rep Power: <span id="reppower_616725_186750">3</span> <div><span id="repdisplay_616725_186750"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="hyugakojiro999 is on a distinguished road" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_616725" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_616725">
+			
+			 I don't remember but you are right<br />
+<br />
+<a href="https://www.asus.com/us/Motherboards/X99-A-II/specifications/" target="_blank">https://www.asus.com/us/Motherboards...pecifications/</a>
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.616725">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+		<!-- edit note -->
+			<div class="smallfont">
+				<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+				<em>
+					
+						Last edited by hyugakojiro999; September 6, 2016 at <span class="time">17:07</span>.
+					
+					
+				</em>
+			</div>
+		<!-- / edit note -->
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="hyugakojiro999 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=616725" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 616725 popup menu -->
+
+<!-- / post 616725 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #616725 --><!-- post #617262 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit617262" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post617262" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post617262"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 9, 2016, 08:24
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post617262"   id="postcount617262" name="14" title="permalink"><strong>14</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_617262">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/hyugakojiro999.html">hyugakojiro999</a>
+				
+				
+			</div>
+			<div class="smallfont">New Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     
+				<div>Join Date: May 2016</div>
+				
+				
+				<div>
+					Posts: 18
+				</div>
+				
+				
+				Rep Power: <span id="reppower_617262_186750">3</span> <div><span id="repdisplay_617262_186750"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="hyugakojiro999 is on a distinguished road" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_617262" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_617262">
+			
+			 flotus1,<br />
+<br />
+Could you please explain how there is a bottleneck between the CPU and RAM? It is said that the bottleneck is at the RAM side and can not be at the CPU side.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.617262">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="hyugakojiro999 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=617262" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 617262 popup menu -->
+
+<!-- / post 617262 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #617262 --><!-- post #617277 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit617277" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post617277" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post617277"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 9, 2016, 10:42
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post617277"   id="postcount617277" name="15" title="permalink"><strong>15</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_617277">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/flotus1.html">flotus1</a>
+				
+				
+			</div>
+			<div class="smallfont">Senior Member</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="https://www.cfd-online.com/Forums/members/flotus1.html"><img src="https://www.cfd-online.com/Forums/avatars/flotus1.gif?dateline=1427382606" width="80" height="61" alt="flotus1's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     <div><b>Alex</b></div>
+				<div>Join Date: Jun 2012</div>
+				<div>Location: Germany</div>
+				
+				<div>
+					Posts: 1,501
+				</div>
+				
+				
+				Rep Power: <span id="reppower_617277_58702">25</span> <div><span id="repdisplay_617277_58702"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_617277" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_617277">
+			
+			 The term bottleneck does not really apply here. I am not sure if I used it in this context.<br />
+6 or 8 cores are a fairly good match for a DDR4 quad-channel memory interface. This means that both the CPU and the memory affect simulation time. You significantly gain performance using a faster CPU (or overclocking it) AND using faster memory.<br />
+A real bottleneck for CFD applications will occur if you use high core count Xeon CPUs with 14 or more cores that still only have a quad-channel memory interface. Their scope of application is obviously not CFD.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.617277">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				Please do not send me CFD-related questions via PM
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="flotus1 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=617277" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 617277 popup menu -->
+
+<!-- / post 617277 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #617277 --><!-- post #617828 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit617828" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post617828" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post617828"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 14, 2016, 04:46
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				<strong>Dual Xeon E5-2640 v4 vs Single i7-6950X</strong>
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post617828"   id="postcount617828" name="16" title="permalink"><strong>16</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_617828">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/alexj.html">alexj</a>
+				
+				
+			</div>
+			<div class="smallfont">New Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     <div><b>Alex Jarosch</b></div>
+				<div>Join Date: Dec 2015</div>
+				<div>Location: Iceland</div>
+				
+				<div>
+					Posts: 22
+				</div>
+				
+				
+				Rep Power: <span id="reppower_617828_169853">3</span> <div><span id="repdisplay_617828_169853"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="alexj is on a distinguished road" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_617828" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_617828">
+			
+			 Dear Alex and all hardware enthusiasts,<br />
+<br />
+I just want to join the conversation about the bottleneck and many core systems. I am faced with a similar decision as discussed in this thread, I have to choose between a workstation with either setup listed below. Both would cost about the same:<br />
+<br />
+Workstation 1:<br />
+1x Intel Core i7-6950X Extreme Edition, 10x 3.00GHz<br />
+1x ASUS X99-A II Motherboard<br />
+8x 8GB DDR4-3600 RAM modules unbufferd (UDIMM)<br />
+<br />
+Workstation 2:<br />
+2x Intel Xeon E5-2640 v4, 10x 2.40GHz (20 cores in total)<br />
+1x ASUS Z10PA-D8 Motherboard<br />
+8x 8GB DDR4-2400 RAM modules registered ECC (RDIMM)<br />
+<br />
+For simplicity I leave out all the other parts of the workstation design. The purpose is to run OpenFoam simulations with 2 million cells and upward meshes. That would give at least 200k cells per core for workstation 1 and 100k cells per core for workstation 2.<br />
+<br />
+Here are my questions and I would highly appreciate any help/comments on those :<br />
+<br />
+1) Which one of the two workstations is more suitable for the job?<br />
+2) I figured workstation 2 can only handle DDR4-2400 RAM modules due to the specs of the ASUS MB.<br />
+3) Are the extra 10, slower cores with slower memory modules actually an advantage for CFD (OpenFoam, so no license restrictions)?<br />
+<br />
+Kind regards,<br />
+Alex
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.617828">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="alexj is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=617828" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 617828 popup menu -->
+
+<!-- / post 617828 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #617828 --><!-- post #617844 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit617844" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post617844" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post617844"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 14, 2016, 05:35
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post617844"   id="postcount617844" name="17" title="permalink"><strong>17</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_617844">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/flotus1.html">flotus1</a>
+				
+				
+			</div>
+			<div class="smallfont">Senior Member</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="https://www.cfd-online.com/Forums/members/flotus1.html"><img src="https://www.cfd-online.com/Forums/avatars/flotus1.gif?dateline=1427382606" width="80" height="61" alt="flotus1's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     <div><b>Alex</b></div>
+				<div>Join Date: Jun 2012</div>
+				<div>Location: Germany</div>
+				
+				<div>
+					Posts: 1,501
+				</div>
+				
+				
+				Rep Power: <span id="reppower_617844_58702">25</span> <div><span id="repdisplay_617844_58702"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_617844" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_617844">
+			
+			 <div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="7" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>alexj</strong>
+					<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post617828" rel="nofollow"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">1) Which one of the two workstations is more suitable for the job?<br />
+2) I figured workstation 2 can only handle DDR4-2400 RAM modules due to the specs of the ASUS MB.<br />
+3) Are the extra 10, slower cores with slower memory modules actually an advantage for CFD (OpenFoam, so no license restrictions)?</div>
+			
+		</td>
+	</tr>
+	</table>
+</div>1) Number 2. A large amount of relatively slow cores is less of an issue if you don't have to pay for your licenses.<br />
+2) Memory will actually be running at DDR4-2133. The memory controller in the CPU is the limiting factor here. Only few Xeon processors are able to use DDR4-2400 <a href="https://www.microway.com/knowledge-center-articles/detailed-specifications-of-the-intel-xeon-e5-2600v4-broadwell-ep-processors/" target="_blank">https://www.microway.com/knowledge-c...ep-processors/</a><br />
+3) It will be faster than the I7. The total memory bandwidth is still higher despite lower frequency. Plus you get more cache and don't have to deal with overclocking or cooling issues. If you still want to buy the I7 workstation use 4 DIMMs with 16GB each.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.617844">
+
+    <div class="alt2 vbseo_liked"><a href="https://www.cfd-online.com/Forums/members/alexj.html">alexj</a> likes this.</div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				Please do not send me CFD-related questions via PM
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="flotus1 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=617844" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 617844 popup menu -->
+
+<!-- / post 617844 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #617844 --><!-- post #617848 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit617848" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post617848" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post617848"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 14, 2016, 05:58
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post617848"   id="postcount617848" name="18" title="permalink"><strong>18</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_617848">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/alexj.html">alexj</a>
+				
+				
+			</div>
+			<div class="smallfont">New Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     <div><b>Alex Jarosch</b></div>
+				<div>Join Date: Dec 2015</div>
+				<div>Location: Iceland</div>
+				
+				<div>
+					Posts: 22
+				</div>
+				
+				
+				Rep Power: <span id="reppower_617848_169853">3</span> <div><span id="repdisplay_617848_169853"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="alexj is on a distinguished road" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_617848" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_617848">
+			
+			 <div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="7" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>flotus1</strong>
+					<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post617844" rel="nofollow"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">1) Number 2. A large amount of relatively slow cores is less of an issue if you don't have to pay for your licenses.<br />
+2) Memory will actually be running at DDR4-2133. The memory controller in the CPU is the limiting factor here. Only few Xeon processors are able to use DDR4-2400 <a href="https://www.microway.com/knowledge-center-articles/detailed-specifications-of-the-intel-xeon-e5-2600v4-broadwell-ep-processors/" target="_blank">https://www.microway.com/knowledge-c...ep-processors/</a><br />
+3) It will be faster than the I7. The total memory bandwidth is still higher despite lower frequency. Plus you get more cache and don't have to deal with overclocking or cooling issues. If you still want to buy the I7 workstation use 4 DIMMs with 16GB each.</div>
+			
+		</td>
+	</tr>
+	</table>
+</div>Thanks so much Alex.<br />
+<br />
+Looking at the document you linked above at 2), I guess the E5-2650 V4 would be interesting too. It has more cores, supports DDR4-2400 RAM, more cache. It is slower per core however (2.2 GHz instead of 2.4 GHz), but more memory bandwidth (76.8 GB/s instead of 68.3 GB/s) and that counts in CFD, right?<br />
+<br />
+At spec.org they compare like this at the SPECfp2006 benchmark (I looked both up for a Dell PowerEdge T430)<br />
+<br />
+Intel Xeon E5-2650 v4, 2.20 GHz, total of 24 cores: 811<br />
+Intel Xeon E5-2640 v4, 2.40 GHz, total of 20 cores: 694<br />
+<br />
+So there is a clear advantage I guess but there is also an extra ~300 Euro per processor. Maybe I can stretch my budget to get the 2650s, looks like worth it.<br />
+<br />
+Kind regards,<br />
+Alex
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.617848">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="alexj is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=617848" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 617848 popup menu -->
+
+<!-- / post 617848 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #617848 --><!-- post #618614 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit618614" style="padding:0px 0px 7px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post618614" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post618614"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 20, 2016, 08:53
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post618614"   id="postcount618614" name="19" title="permalink"><strong>19</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_618614">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/hyugakojiro999.html">hyugakojiro999</a>
+				
+				
+			</div>
+			<div class="smallfont">New Member</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     
+				<div>Join Date: May 2016</div>
+				
+				
+				<div>
+					Posts: 18
+				</div>
+				
+				
+				Rep Power: <span id="reppower_618614_186750">3</span> <div><span id="repdisplay_618614_186750"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="hyugakojiro999 is on a distinguished road" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_618614" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_618614">
+			
+			 Hi flotus1,<br />
+<br />
+Lets look another side; &quot;Solid State Disk&quot;s <img src="https://www.cfd-online.com/Forums/images/smilies/smile.gif" border="0" alt="" title="Smile" class="inlineimg" /><br />
+<br />
+What do you think about these;<br />
+<br />
+-Samsung SSD 950 Pro<br />
+-Samsung SM951<br />
+-Samsung 850 EVO<br />
+<br />
+Can we see any benefit from 32gb/s SSDs? or 850EVO is ok?
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.618614">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+
+		
+
+		
+		<!-- edit note -->
+			<div class="smallfont">
+				<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+				<em>
+					
+						Last edited by hyugakojiro999; September 20, 2016 at <span class="time">13:17</span>.
+					
+					
+				</em>
+			</div>
+		<!-- / edit note -->
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="hyugakojiro999 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=618614" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 618614 popup menu -->
+
+<!-- / post 618614 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #618614 --><!-- post #618630 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+	<div id="edit618630" style="padding:0px 0px 7px 0px">
+	
+
+
+
+<table id="post618630" class="tborder vbseo_like_postbit" cellpadding="7" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post618630"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			&nbsp; September 20, 2016, 10:22
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px">
+                          
+			         <!-- icon and title -->
+			         <div class="smallfont">
+				<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			         </div>
+			         <!-- / icon and title -->
+		        
+                  </td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#post618630"   id="postcount618630" name="20" title="permalink"><strong>20</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="150" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px; padding:12px">
+
+			<div id="postmenu_618630">
+				
+				<a rel="nofollow" class="bigusername" href="https://www.cfd-online.com/Forums/members/flotus1.html">flotus1</a>
+				
+				
+			</div>
+			<div class="smallfont">Senior Member</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a rel="nofollow" href="https://www.cfd-online.com/Forums/members/flotus1.html"><img src="https://www.cfd-online.com/Forums/avatars/flotus1.gif?dateline=1427382606" width="80" height="61" alt="flotus1's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+                                     <div><b>Alex</b></div>
+				<div>Join Date: Jun 2012</div>
+				<div>Location: Germany</div>
+				
+				<div>
+					Posts: 1,501
+				</div>
+				
+				
+				Rep Power: <span id="reppower_618630_58702">25</span> <div><span id="repdisplay_618630_58702"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/reputation/reputation_pos.gif" alt="flotus1 will become famous soon enough" border="0" /></span></div>
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td colspan="2" class="alt1" id="td_post_618630" style="border-right: 1px solid #D1D1E1; padding:12px">
+	
+		
+
+		<!-- message -->
+		<div id="post_message_618630">
+			
+			 While I consider a normal SATA3 SSD mandatory for any CFD workstation (in fact mandatory for any computer), the benefit of PCIe-SSDs depends on the workload. If you use Ansys software that is known to cause a lot of disk I/O during simulations a fast SSD might help a bit. If reading or writing files is the bottleneck of your workload, e.g. for some transient simulations or post-processing, a fast SSD can definitely help.<br />
+Apart from these special cases, the price for decent PCIe-SSDs is still a bit too high and SATA-SSDs or even the good old HDDs are fast enough to avoid an I/O bottleneck.<br />
+So there is no final answer to your question. If you see any benefit depends on what you do and how you do it.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+<div class="vbseo_buttons" id="lkbtn_1.175092.618630">
+
+    <div class="alt2 vbseo_liked" style="display:none"></div>
+
+
+</div>
+
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				Please do not send me CFD-related questions via PM
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="https://www.cfd-online.com/Forums/images/statusicon/user_offline.gif" alt="flotus1 is offline" border="0" />
+
+
+		
+		
+		
+		
+		&nbsp;
+	</td>
+	
+	<td colspan="2" class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;p=618630" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+ 
+<!-- post 618630 popup menu -->
+
+<!-- / post 618630 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<br />
+
+<!-- / post #618630 --><div id="lastpost"></div></div>
+
+<!-- start content table -->
+<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 25px 0px 25px" align="left">
+
+<!-- / start content table -->
+
+<!-- controls below postbits -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top:-4px">
+<tr valign="top">
+	
+		<td class="smallfont"><a href="https://www.cfd-online.com/Forums/newreply.php?do=newreply&amp;noquote=1&amp;p=618630" rel="nofollow"><img src="https://www.cfd-online.com/Forums/images/buttons/reply.gif" alt="Reply" border="0" /></a></td>
+	
+	
+		<td align="right"><div class="pagenav" align="right">
+<table class="tborder" cellpadding="3" cellspacing="1" border="0">
+<tr>
+	<td class="vbmenu_control" style="font-weight:normal">Page 1 of 2</td>
+	
+	
+		<td class="alt2"><span class="smallfont" title="Showing results 1 to 20 of 29"><strong>1</strong></span></td>
+ <td class="alt1"><a class="smallfont" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling-2.html" title="Show results 21 to 29 of 29">2</a></td>
+	<td class="alt1"><a rel="next" class="smallfont" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling-2.html" title="Next Page - Results 21 to 29 of 29">&gt;</a></td>
+	
+	<td class="vbmenu_control" title="showthread.php?t=175092"><a name="PageNav"></a></td>
+</tr>
+</table>
+</div>
+		
+		</td>
+	
+</tr>
+</table>
+<!-- / controls below postbits -->
+
+
+
+
+
+
+<!-- thread tags -->
+	<br />
+	<table class="tborder" cellpadding="7" cellspacing="1" border="0" width="100%" align="center">
+	<tr>
+		<td class="thead">
+			
+			<a name="taglist"></a>
+			<a href="https://www.cfd-online.com/Forums/tags/">Tags</a>
+		</td>
+	</tr>
+	<tr>
+		<td class="alt1 smallfont" id="tag_list_cell"><a href="https://www.cfd-online.com/Forums/tags/computer%20parts.html">computer parts</a>, <a href="https://www.cfd-online.com/Forums/tags/computer%20spec.html">computer spec</a>, <a href="https://www.cfd-online.com/Forums/tags/hardware.html">hardware</a> <img src="https://www.cfd-online.com/Forums/images/misc/11x11progress.gif" id="tag_form_progress" class="inlineimg" style="display:none" alt="" /></td>
+	</tr>
+	</table>
+
+	<script type="text/javascript" src="https://www.cfd-online.com/Forums/clientscript/vbulletin_ajax_taglist.js?v=389"></script>
+		<script type="text/javascript" src="https://www.cfd-online.com/Forums/clientscript/vbulletin_ajax_tagsugg.js?v=389"></script>
+<!-- / thread tags -->
+
+
+
+
+
+<!-- lightbox scripts -->
+	<script type="text/javascript" src="https://www.cfd-online.com/Forums/clientscript/vbulletin_lightbox.js?v=389"></script>
+	<script type="text/javascript">
+	<!--
+	vBulletin.register_control("vB_Lightbox_Container", "posts", 1);
+	//-->
+	</script>
+<!-- / lightbox scripts -->
+
+
+
+
+
+
+
+
+
+
+<!-- next / previous links -->
+	<br />
+	<div class="smallfont" align="center">
+		<strong>&laquo;</strong>
+			<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling-prev-thread.html" rel="nofollow">Previous Thread</a>
+			|
+			<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling-next-thread.html" rel="nofollow">Next Thread</a>
+		<strong>&raquo;</strong>
+	</div>
+<!-- / next / previous links -->
+
+
+
+
+
+
+
+<!-- popup menu contents -->
+<br />
+
+<!-- thread tools menu -->
+<div class="vbmenu_popup" id="threadtools_menu" style="display:none">
+<form action="https://www.cfd-online.com/Forums/postings.php?t=175092&amp;pollid=" method="post" name="threadadminform">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Thread Tools<a name="goto_threadtools"></a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/buttons/printer.gif" alt="Show Printable Version" /> <a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling-print.html" accesskey="3" rel="nofollow">Show Printable Version</a></td>
+	</tr>
+	
+	
+	
+	
+	</table>
+</form>
+</div>
+<!-- / thread tools menu -->
+
+<!-- **************************************************** -->
+
+<!-- thread display mode menu -->
+<div class="vbmenu_popup" id="displaymodes_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Display Modes<a name="goto_displaymodes"></a></td>
+	</tr>
+	<tr>
+	
+		<td class="vbmenu_option" title="nohilite"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/buttons/mode_linear.gif" alt="Linear Mode" /> <strong>Linear Mode</strong></td>
+	
+	</tr>
+	<tr>
+	
+		<td class="vbmenu_option"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/buttons/mode_hybrid.gif" alt="Hybrid Mode" /> <a rel="nofollow" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html?mode=hybrid">Switch to Hybrid Mode</a></td>
+	
+	</tr>
+	<tr>
+	
+		<td class="vbmenu_option"><img class="inlineimg" src="https://www.cfd-online.com/Forums/images/buttons/mode_threaded.gif" alt="Threaded Mode" /> <a rel="nofollow" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html?mode=threaded#post611029">Switch to Threaded Mode</a></td>
+	
+	</tr>
+	</table>
+</div>
+<!-- / thread display mode menu -->
+
+<!-- **************************************************** -->
+
+
+
+<!-- **************************************************** -->
+
+
+
+<!-- / popup menu contents -->
+
+
+<!-- forum rules and admin links -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+<tr valign="bottom">
+	<td width="100%" valign="top">
+		<table class="tborder" cellpadding="7" cellspacing="1" border="0" width="210">
+<thead>
+<tr>
+	<td class="thead">
+		<a style="float:right" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#top" onclick="return toggle_collapse('forumrules')"><img id="collapseimg_forumrules" src="https://www.cfd-online.com/Forums/images/buttons/collapse_thead.gif" alt="" border="0" /></a>
+		Posting Rules
+	</td>
+</tr>
+</thead>
+<tbody id="collapseobj_forumrules" style="">
+<tr>
+	<td class="alt1" nowrap="nowrap"><div class="smallfont">
+		
+		<div>You <strong>may not</strong> post new threads</div>
+		<div>You <strong>may not</strong> post replies</div>
+		<div>You <strong>may not</strong> post attachments</div>
+		<div>You <strong>may not</strong> edit your posts</div>
+		<hr />
+		
+		<div><a rel="nofollow" href="https://www.cfd-online.com/Forums/misc.php?do=bbcode" target="_blank">BB code</a> is <strong>On</strong></div>
+		<div><a rel="nofollow" href="https://www.cfd-online.com/Forums/misc.php?do=showsmilies" target="_blank">Smilies</a> are <strong>On</strong></div>
+		<div><a rel="nofollow" href="https://www.cfd-online.com/Forums/misc.php?do=bbcode#imgcode" target="_blank">[IMG]</a> code is <strong>On</strong></div>
+		<div>HTML code is <strong>Off</strong></div><div><a rel="nofollow" href="https://www.cfd-online.com/Forums/misc.php?do=linkbacks#trackbacks" target="_blank">Trackbacks</a> are <strong>On</strong></div>
+<div><a rel="nofollow" href="https://www.cfd-online.com/Forums/misc.php?do=linkbacks#pingbacks" target="_blank">Pingbacks</a> are <strong>On</strong></div>
+<div><a rel="nofollow" href="https://www.cfd-online.com/Forums/misc.php?do=linkbacks#refbacks" target="_blank">Refbacks</a> are <strong>On</strong></div>
+		<hr />
+		<div><a rel="nofollow" href="https://www.cfd-online.com/Forums/misc.php?do=showrules" target="_blank">Forum Rules</a></div>
+	</div></td>
+</tr>
+</tbody>
+</table>
+	</td>
+	<td class="smallfont" align="right">
+		<table cellpadding="0" cellspacing="0" border="0">
+		
+		<tr>
+			<td>
+			
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+<!-- /forum rules and admin links -->
+
+<br />
+
+
+<table class="tborder" cellpadding="7" cellspacing="1" border="0" width="100%" align="center">
+<thead>
+	<tr>
+		<td class="tcat" width="100%" colspan="5">
+			<a style="float:right" href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#top" onclick="return toggle_collapse('similarthreads')"><img id="collapseimg_similarthreads" src="https://www.cfd-online.com/Forums/images/buttons/collapse_tcat.gif" alt="" border="0" /></a>
+			Similar Threads<a name="similarthreads"></a>
+		</td>
+	</tr>
+</thead>
+<tbody id="collapseobj_similarthreads" style="">
+<tr class="thead" align="center">
+	<td class="thead" width="40%">Thread</td>
+	<td class="thead" width="15%" nowrap="nowrap">Thread Starter</td>
+	<td class="thead" width="20%">Forum</td>
+	<td class="thead" width="5%">Replies</td>
+	<td class="thead" width="20%">Last Post</td>
+</tr>
+<tr>
+	<td class="alt1" align="left">
+		
+		<span class="smallfont"> <a href="https://www.cfd-online.com/Forums/openfoam-news-announcements-other/170183-cfd-naval-hydrodynamics-off-shore-wave-modelling-openfoam.html" title="Wikki Ltd. is pleased to announce an industry focused User Day dedicated to 
+ 
+CFD in Naval Hydrodynamics, Off-Shore and Wave Modelling with OpenFOAM...">CFD in Naval Hydrodynamics, Off-Shore and Wave Modelling with OpenFOAM</a></span>
+	</td>
+	<td class="alt2" nowrap="nowrap"><span class="smallfont">hjasak</span></td>
+	<td class="alt1" nowrap="nowrap"><span class="smallfont">OpenFOAM Announcements from Other Sources</span></td>
+	<td class="alt2" align="center"><span class="smallfont">2</span></td>
+	<td class="alt1" align="right"><span class="smallfont">February 13, 2017 <span class="time">05:59</span></span></td>
+</tr>
+<tr>
+	<td class="alt1" align="left">
+		
+		<span class="smallfont"> <a href="https://www.cfd-online.com/Forums/cfx/156569-setting-height-stream-free-channel.html" title="hello again,  
+I am doing a project on flow around a surface piercing cylinder. I carried out an experiment to measure the height of the water in the...">Setting the height of the stream in the free channel</a></span>
+	</td>
+	<td class="alt2" nowrap="nowrap"><span class="smallfont">kevinmccartin</span></td>
+	<td class="alt1" nowrap="nowrap"><span class="smallfont">CFX</span></td>
+	<td class="alt2" align="center"><span class="smallfont">10</span></td>
+	<td class="alt1" align="right"><span class="smallfont">July 9, 2015 <span class="time">21:36</span></span></td>
+</tr>
+<tr>
+	<td class="alt1" align="left">
+		
+		<span class="smallfont"> <a href="https://www.cfd-online.com/Forums/hardware/102797-need-opinion-workstation-2x-xeon-e5-e2690.html" title="Hello, I would like to know your opinion. I can buy a used dual 2x e5 e2660 Xeon workstation for CFD purpose, however is possible to upgreade for...">need opinion Workstation 2x Xeon e5 e2690 ?</a></span>
+	</td>
+	<td class="alt2" nowrap="nowrap"><span class="smallfont">laxwendrofzx9r</span></td>
+	<td class="alt1" nowrap="nowrap"><span class="smallfont">Hardware</span></td>
+	<td class="alt2" align="center"><span class="smallfont">6</span></td>
+	<td class="alt1" align="right"><span class="smallfont">June 5, 2012 <span class="time">09:04</span></span></td>
+</tr>
+<tr>
+	<td class="alt1" align="left">
+		
+		<span class="smallfont"> <a href="https://www.cfd-online.com/Forums/cfx/98751-error-message.html" title="hi everyone, 
+  
+I am a new user for CFX so I might ask some stupid questions here. Sorry for that. My question is when I set up my boundary...">error message</a></span>
+	</td>
+	<td class="alt2" nowrap="nowrap"><span class="smallfont">cuteapathy</span></td>
+	<td class="alt1" nowrap="nowrap"><span class="smallfont">CFX</span></td>
+	<td class="alt2" align="center"><span class="smallfont">14</span></td>
+	<td class="alt1" align="right"><span class="smallfont">March 20, 2012 <span class="time">07:45</span></span></td>
+</tr>
+<tr>
+	<td class="alt1" align="left">
+		
+		<span class="smallfont"> <a href="https://www.cfd-online.com/Forums/main/1339-pc-vs-workstation.html" title="Hello, 
+ 
+could someone tell about his experience about running a cfd-job on a Windows NT PC in comparision to a Unix workstation. 
+ 
+In the moment...">PC vs. Workstation
+</a></span>
+	</td>
+	<td class="alt2" nowrap="nowrap"><span class="smallfont">Tim Franke</span></td>
+	<td class="alt1" nowrap="nowrap"><span class="smallfont">Main CFD Forum</span></td>
+	<td class="alt2" align="center"><span class="smallfont">5</span></td>
+	<td class="alt1" align="right"><span class="smallfont">September 29, 1999 <span class="time">15:01</span></span></td>
+</tr>
+
+</tbody>
+</table>
+
+<br />
+
+
+      
+	  		<div style="padding: 7px 0px 0px 0px">
+				<table class="tborder" cellpadding="7" cellspacing="1" border="0" width="100%" align="center">
+					
+						<tr>
+							<td class="thead" align="left">
+        Sponsored Links
+      </td>
+						</tr>
+					
+					<tr>
+						<td class="alt1" align="center">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- apriliaforum -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2350029621617309"
+     data-ad-slot="1298701670"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<br />
+	  
+    
+
+<br />
+<div class="smallfont" align="center">All times are GMT -4. The time now is <span class="time">03:47</span>.</div>
+<br />
+
+
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<!-- /content area table -->
+
+<form action="https://www.cfd-online.com/Forums/" method="get" style="clear:left">
+
+<table cellpadding="7" cellspacing="0" border="0" width="100%" class="page" align="center">
+<tr>
+	
+	
+	<td class="tfoot" align="right" width="100%">
+		<div class="smallfont">
+			<strong>
+				<a href="https://www.cfd-online.com/Forums/sendmessage.php" rel="nofollow" accesskey="9">Contact Us</a> -
+				<a href="https://www.cfd-online.com">CFD Online</a> -
+				
+				
+				
+				
+				
+				
+				<a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html#top" onclick="self.scrollTo(0, 0); return false;">Top</a>
+			</strong>
+		</div>
+	</td>
+</tr>
+</table>
+
+<div id="pageFooter">
+<div class="alignleft"><a href="http://twitter.com/cfdonline"><img border=0 src="/Images/twitter_grey.gif" /></a>
+&nbsp;
+<a href="http://www.facebook.com/cfdonline"><img border=0 src="/Images/facebook_grey.gif" /></a></div>
+<div class="alignright">&copy; CFD Online
+<a href="http://validator.w3.org/check?uri=referer">&nbsp;</a></div>
+</div>
+
+<div align="center">
+	<div class="smallfont" align="center">
+	<!-- Do not remove  or your scheduled tasks will cease to function -->
+	
+	<!-- Do not remove  or your scheduled tasks will cease to function -->
+	</div>
+</div>
+
+</form>
+
+
+
+
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+
+<!-- temp -->
+<div style="display:none">
+	<!-- thread rate -->
+	
+		
+	
+	<!-- / thread rate -->
+</div>
+
+
+<div class="vbmenu_popup" id="linkbacktools_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">LinkBack<a name="goto_linkback"></a></td>
+	</tr>
+
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="https://www.cfd-online.com/Forums/vbseo/resources/images/forum/linkback_url.gif" alt="LinkBack URL" /> <a href="https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html" onclick="prompt('Use the following URL when referencing this thread from another forum or blog.','https://www.cfd-online.com/Forums/hardware/175092-opinion-self-built-workstation-cfd-modelling.html');return false;">LinkBack URL</a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="https://www.cfd-online.com/Forums/vbseo/resources/images/forum/linkback_about.gif" alt="About LinkBacks" /> <a rel="nofollow" href="https://www.cfd-online.com/Forums/misc.php?do=linkbacks">About LinkBacks</a></td>
+	</tr>
+
+	<tr>
+		<td class="thead">Bookmark &amp; Share</td>
+	</tr>
+	<tr><td class="vbmenu_option"><img class="inlineimg" src="https://www.cfd-online.com/Forums/vbseo/resources/images/forum/digg.gif" alt="Digg this Thread!" /> <a rel="nofollow" href="http://digg.com/submit?phase=2&amp;url=https%3A%2F%2Fwww.cfd-online.com%2FForums%2Fhardware%2F175092-opinion-self-built-workstation-cfd-modelling.html&amp;title=Opinion+of+this+self+built+workstation+for+CFD+modelling" target="_blank">Digg this Thread!</a><a name="vbseodm_0"></a></td></tr><tr><td class="vbmenu_option"><img class="inlineimg" src="https://www.cfd-online.com/Forums/vbseo/resources/images/forum/delicious.gif" alt="Add Thread to del.icio.us" /> <a rel="nofollow" href="http://del.icio.us/post?url=https%3A%2F%2Fwww.cfd-online.com%2FForums%2Fhardware%2F175092-opinion-self-built-workstation-cfd-modelling.html&amp;title=Opinion+of+this+self+built+workstation+for+CFD+modelling" target="_blank">Add Thread to del.icio.us</a><a name="vbseodm_1"></a></td></tr><tr><td class="vbmenu_option"><img class="inlineimg" src="https://www.cfd-online.com/Forums/vbseo/resources/images/forum/technorati.gif" alt="Bookmark in Technorati" /> <a rel="nofollow" href="http://technorati.com/faves/?add=https%3A%2F%2Fwww.cfd-online.com%2FForums%2Fhardware%2F175092-opinion-self-built-workstation-cfd-modelling.html" target="_blank">Bookmark in Technorati</a><a name="vbseodm_2"></a></td></tr><tr><td class="vbmenu_option"><img class="inlineimg" src="https://www.cfd-online.com/Forums/vbseo/resources/images/forum/twitter.png" alt="Tweet this thread" /> <a rel="nofollow" href="http://twitter.com/home?status=Opinion+of+this+self+built+workstation+for+CFD+modelling https%3A%2F%2Fwww.cfd-online.com%2FForums%2Fhardware%2F175092-opinion-self-built-workstation-cfd-modelling.html" target="_blank">Tweet this thread</a><a name="vbseodm_3"></a></td></tr>
+
+	</table>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+
+window.orig_onload = window.onload;
+window.onload = function() {
+var cpost=document.location.hash.substring(1);var cpost2='';if(cpost){ var ispost=cpost.substring(0,4)=='post';if(ispost)cpost2='post_'+cpost.substring(4);if((cobj = fetch_object(cpost))||(cobj = fetch_object(cpost2))){cobj.scrollIntoView(true);}else if(ispost){cpostno = cpost.substring(4,cpost.length);if(parseInt(cpostno)>0){location.replace('https://www.cfd-online.com/Forums/showthread.php?p='+cpostno);};} }
+
+if(typeof window.orig_onload == "function") window.orig_onload();
+}
+
+//]]>
+</script>
+</body>
+</html>
